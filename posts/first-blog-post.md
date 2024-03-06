@@ -9,8 +9,7 @@ Welcome everyone, to RMIT Creative coding Specialisation!!
 
 <iframe src="https://editor.p5js.org/Buuchia/full/U0ClJnKc3" width="100%" height="242px"></iframe>
 
-![a small group of people creative coding on the street with their pets](/240306_First_Post/xiao_qu_ji.jpg)
-
+![a cub panda](/240306_First_Post/xiao_qu_ji.jpg)
 
 
 Hello, world!
