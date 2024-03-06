@@ -11,7 +11,6 @@ Welcome everyone, to RMIT Creative coding Specialisation!!
 
 ![a cub panda](/240306_First_Post/xiao_qu_ji.jpg)
 
-
 Hello, world!
 
 # This is h1
