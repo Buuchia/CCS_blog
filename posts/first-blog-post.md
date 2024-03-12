@@ -13,11 +13,15 @@ Welcome everyone, to RMIT Creative coding Specialisation!!
 
 Hello, world!
 
-<iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw" width="100%" height="742px" ></iframe>
-# This is h1
+## Homework 1
 
-## This is h2
+# This is my sketch for the grid using nested **for** loop.
+<iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw" width="100%" height="742px" ></iframe>
+
+# Using **mouseIsPressed** function to create circle when the mouse is pressed
+<iframe src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
+
 
 _underline_
 
-**bold**
+
