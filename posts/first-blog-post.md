@@ -23,8 +23,8 @@ Hello, world!
 
 <script type="module>
  const iframe = document.getElementByid('Sketch')
- iframe.width = iframe.parentNode.scrollWidth 
- iframe.height = iframe.parentNode.scrollWidth + 42
+ iframe.width = iframe.parentNode.clientWidth
+ iframe.height = iframe.parentNode.clientWidth + 42
 </script>
 
 <div>
