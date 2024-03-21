@@ -60,10 +60,8 @@ This is my process.
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
-![test brush](/static/hw_w2/test_brush_1.png)
-![chaotic random vector shape](/static/hw_w2/chaotic_random_vector_shape.png)
-
-
+![test brush](/hw_w2/test_brush_1.png)
+![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
 
 
 # Homework 3
