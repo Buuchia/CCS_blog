@@ -13,18 +13,18 @@ Welcome everyone, to RMIT Creative coding Specialisation!!
 
 Hello, world!
 
-## Homework 1
+# Homework 1
 
-# This is my sketch for the grid using nested **for** loop.
+This is my sketch for the grid using nested **for** loop.
 <iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw" width="100%" height="742px" ></iframe>
 
-# Using **mouseIsPressed** function to create circle when the mouse is pressed
+Using **mouseIsPressed** function to create circle when the mouse is pressed.
 <iframe id="float_bounce_01" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
 
 <script type="module>
  const iframe = document.getElementById(`float_bounce_01`)
- iframe.width = iframe.parentNode.clientWidth
- iframe.height = iframe.parentNode.clientWidth + 42
+ iframe.width = iframe.parentNode.scrollWidth
+ iframe.height = frame.width * 9 / 16
 </script>
 
 <div>
