@@ -34,9 +34,9 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
-! [gradient background](/hw_w1/gradient_bg.png)
-! [gradient circle](/hw_w1/gradient_circle.png)
-! [mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
+![gradient background](/hw_w1/gradient_bg.png)
+![gradient circle](/hw_w1/gradient_circle.png)
+![mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
 
 I made a second attempt with the bounce and float effect.
 <iframe id="float_bounce_02" src="https://editor.p5js.org/Buuchia/full/RuNj1xzEt"></iframe>
@@ -60,8 +60,8 @@ This is my process.
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
-! [test brush](/static/hw_w2/test_brush_1.png)
-! [chaotic random vector shape](/static/hw_w2/chaotic_random_vector_shape.png)
+![test brush](/static/hw_w2/test_brush_1.png)
+![chaotic random vector shape](/static/hw_w2/chaotic_random_vector_shape.png)
 
 
 
