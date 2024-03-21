@@ -19,12 +19,12 @@ Hello, world!
 <iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw" width="100%" height="742px" ></iframe>
 
 # Using **mouseIsPressed** function to create circle when the mouse is pressed
-<iframe id="Sketch" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
+<iframe id="float_bounce_01" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
 
 <script type="module>
- const iframe = document.getElementByid('Sketch')
- iframe.width = iframe.parentNode.clientWidth
- iframe.height = iframe.parentNode.clientWidth + 42
+ const iframe = document.getElementByid(`float_bounce_01`)
+ iframe.width = iframe.parentNode.scrollWidth
+ iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
 <div>
