@@ -18,6 +18,7 @@ Hello, world!
 This is my sketch for the grid using nested **for** loop.
 <iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw" width="100%" height="742px" ></iframe>
 
+This week I choose the work call [Float and Bounce](https://www.floatbounce.com/).
 Using **mouseIsPressed** function to create circle when the mouse is pressed.
 <iframe id="float_bounce_01" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
 
@@ -33,6 +34,7 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 
 
 # Homework 2
+
 This week I choose the work called [Fill This Up](https://fillthisup.com/).
 This is my process.
 <iframe id="fill_this_up_01" src="https://editor.p5js.org/Buuchia/full/xeKlYQsdl"></iframe>
@@ -49,4 +51,7 @@ This is my process.
 <div>
 _underline_
 
+# Homework 3
+
+Define cuteness by Sianne Ngai:
 
