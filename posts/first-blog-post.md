@@ -16,7 +16,13 @@ Hello, world!
 # Homework 1
 
 This is my sketch for the grid using nested **for** loop.
-<iframe src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw"></iframe>
+<iframe id="grid" src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw"></iframe>
+
+<script type="module">
+ const iframe = document.getElementById(`grid`)
+ iframe.width = iframe.parentNode.scrollWidth
+ iframe.height = iframe.parentNode.scrollWidth + 42
+</script>
 
 This week I choose the work call [Float and Bounce](https://www.floatbounce.com/).
 Using **mouseIsPressed** function to create circle when the mouse is pressed.
