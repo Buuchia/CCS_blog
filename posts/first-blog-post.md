@@ -22,7 +22,7 @@ Hello, world!
 <iframe id="float_bounce_01" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
 
 <script type="module>
- const iframe = document.getElementByid(`float_bounce_01`)
+ const iframe = document.getElementById(`float_bounce_01`)
  iframe.width = iframe.parentNode.scrollWidth
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
