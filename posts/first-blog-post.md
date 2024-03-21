@@ -35,7 +35,9 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 </script>
 
 ![gradient background](/hw_w1/gradient_bg.png)
+<div>
 ![gradient circle](/hw_w1/gradient_circle.png)
+<div>
 ![mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
 
 I made a second attempt with the bounce and float effect.
