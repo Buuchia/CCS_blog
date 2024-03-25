@@ -36,14 +36,16 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 
 ![gradient background](/hw_w1/gradient_bg.png)
 
-<div align="center">
+
 ![gradient circle](/hw_w1/gradient_circle.png)
 </div>
 
 ![mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
 
 I made a second attempt with the bounce and float effect.
+<div align="center">
 <iframe id="float_bounce_02" src="https://editor.p5js.org/Buuchia/full/RuNj1xzEt"></iframe>
+</div>
 
 <script type="module">
  const iframe = document.getElementById(`float_bounce_02`)
