@@ -68,7 +68,9 @@ This is my process.
 
 ![test brush](/hw_w2/test_brush_1.png)
 
+
 ![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
+
 
 
 # Homework 3
