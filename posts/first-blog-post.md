@@ -75,5 +75,13 @@ This is my process.
 
 # Homework 3
 
-Define cuteness by Sianne Ngai:
+As far as I understand about Sianne Ngai's cute aesthetic, cuteness is not just about being 'warm and fuzzy', but the power and darkness behind the vulnerable disguise. Cuteness makes people want to protect it, its helplessness triggers not only care and empathy for it, but also the urge to control it and to justify our fantasy, which is the 'sadist' and 'fetishes' that I think Ngai meant.
+
+At first I don't not understand about the association between cuteness and consumption, but it somewhat makes more sense when I take my cats as an example to explain this.
+
+When I look at my cats, they look so silly as if they could not live without me taking care of them. They are cute because they trigger my maternal instinct. I always want to pamper them and give them all the best, which leads me to buy all sorts of toys and food that they sometimes don't even bother to touch. Yet I still keep buying those things despite their liking or not, to a point I start asking myself if all these consumption were truly for them, or my cats' cuteness was just an excuse for me to satisfy my own fantasy of being a cat mom. Cuteness in this sense grasps the desire or fetish of the protector to demand more consumption, while the consumer is willing to consume for one wants no exchange value but cuteness in return, hence the power of its being small and vulnerable.
+
+Since I nurture my cats from when they were babies (and still are babies!) and cuddle them all the time, it is difficult to not think of them as my possessions. They kind of turned into my obsession, so when they act cute and friendly towards other people, sometimes I feel jealous and just want them to be cute to only me, or even feel the urge to hide them away so they can only be mine. I realize cuteness does have the power to bring out the 'sadist', aggressive, and controlling tendency in a human nature.
+
+
 
