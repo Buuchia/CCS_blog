@@ -36,7 +36,7 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 
 ![gradient background](/hw_w1/gradient_bg.png)
 
-<div>
+<div align="center">
 ![gradient circle](/hw_w1/gradient_circle.png)
 </div>
 
