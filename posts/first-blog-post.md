@@ -75,6 +75,8 @@ This is my process.
 
 # Homework 3
 
+## Cute
+
 As far as I understand about Sianne Ngai's cute aesthetic, cuteness is beyond being 'warm and fuzzy', its power and darkness lurk behind the vulnerable disguise. Cuteness makes people want to protect it, its fragility triggers not only care and empathy for it, but also the urge to control it and to justify our fantasy, which is the 'sadist' and 'fetishes' that I think Ngai meant. 
 
 At first I don't not understand about the association between cuteness and consumption, but it somewhat makes more sense when I take my cats as an example to explain this.
@@ -86,3 +88,11 @@ Since I nurture my cats from when they were babies (and still are babies!) and c
 Although the cute aesthetic influences consumption and has kitsch quality, I find it interesting that through an art medium, it may be avant-garde and challenge easy consumption. Cute in this context plays a critical part in assessing artistic expression.
 
 The cute aesthetic can be thought as a way for us to think about the meaningful relationship between the subject and consumption, and offer a deeper understanding about what we humans are fascinated with and scared of.
+
+## Effective Complexity
+
+As defined during lecture, Effective Complexity is the balance between non-randomness (cohenrence) and non-redundancy (spiciness).
+
+This relationship suggests a structure where elements can be organized into a structure which they aren't completely monotonous and completly chaotic. Monotomy is boring and repetitive, while chaos is too difficult to comprehend.
+
+Therefore, effective complexity offers a structure where things can have similarities but also variations between each other, so non-randomness and a little bit of randomness make things juicier.
