@@ -83,6 +83,6 @@ When I look at my cats, they look so silly as if they could not live without me 
 
 Since I nurture my cats from when they were babies (and still are babies!) and cuddle them all the time, it is difficult to not think of them as my possessions. They kind of turned into my obsession, so when they act cute and friendly towards other people, sometimes I feel jealous and just want them to be cute to only me, or even feel the urge to hide them away so they can only be mine. I realize cuteness' intimacy does have the power to bring out the 'sadist', aggressive, and controlling tendency in a human nature.
 
-Although the cute aesthetic influences consumption and has kitsch quality, I find it interesting that through an art medium, it may be avant-garde and challenge easy consumption. Cute in this scenario plays a critical part in asessing artistic expression.
+Although the cute aesthetic influences consumption and has kitsch quality, I find it interesting that through an art medium, it may be avant-garde and challenge easy consumption. Cute in this scenario plays a critical part in assessing artistic expression.
 
 The cute aesthetic can be thought as a way for us to think about the meaningful relationship between the subject and consumption, and offer a deeper understanding about what we humans fascinated with and scared of.
