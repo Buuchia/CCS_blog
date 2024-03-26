@@ -93,6 +93,6 @@ The cute aesthetic can be thought as a way for us to think about the meaningful 
 
 As defined during lecture, Effective Complexity is the balance between non-randomness (cohenrence) and non-redundancy (spiciness).
 
-This relationship suggests a structure where elements can be organized into a structure which they aren't completely monotonous and completly chaotic. Monotomy is boring and repetitive, while chaos is too difficult to comprehend.
+This relationship suggests a structure where elements can be organized into a way that they aren't completely monotonous and completly chaotic. Monotomy is boring and repetitive, while chaos is too difficult to comprehend.
 
 Therefore, effective complexity offers a structure where things can have similarities but also variations between each other, so non-randomness and a little bit of randomness make things juicier.
