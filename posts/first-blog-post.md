@@ -118,11 +118,14 @@ The artist employed effective complexity by generating iterations of simple circ
 
 - Shape drawn in the centre of the canvas.
 - Meditative/Hypnotizing feel.
-slow-motion approach of the shapes
+- Slow-motion approach of the shapes, or when they transform.
+- Random color of the petals or 
 
 ### Aspects I would like to improve/change
 
-I will change the circles to flower shape
+- Change the circles to flower shape.
+- Randomize color of the background in time with the flower transformation, instead of randomizing color of petals.
+
 
 ### The way my work in dialogue with Rafael Rozendaal's return reverse is in:
 
@@ -133,7 +136,7 @@ When one thinks of universe, it could be a starry sky or planets, but I came acr
 Using the imagery of a flower to represent the universe is not entirely new, but the fact that something so vast like the universe can be reduced to a small thing like flower is really cute and organic. I really like the idea that digital works
  can be natural.
 
-So I will communicate with Rafael Rozendaa's *return universe* through the pattern of a flower's disk floret, perhaps like that of a [sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03).
+So I will communicate with Rafael Rozendaa's *return universe* through the motion of a flower's disk floret pattern, perhaps like that of a [sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03).
 
 ![Sunflower's disk floret](/hw_w3/sunflower.jpg)
 
@@ -146,5 +149,14 @@ So I will communicate with Rafael Rozendaa's *return universe* through the patte
 - Flower stays in the center of the canvas.
 - Each flower shape has some transparency, so not solid fill.
 - Hypnotizing effect may be achieved with slow motion, when the flower layers transform, when they are bigger and approaching.
-- Rotating hue
-- Blend mode
+- Rotating hue.
+- Blend mode.
+- for loop, since I need to make iterations of the flower layers.
+- Make a flower object in a class.
+- Some conditional statements.
+- Random with map function (for background).
+- Array of petals (?).
+- Vertex because I will need to draw the petals.
+
+**Tutorials**
+[Patt Vira's Hyonotic Flowers](https://www.youtube.com/watch?v=o5t7PxRJSXk)
