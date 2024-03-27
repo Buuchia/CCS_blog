@@ -124,11 +124,12 @@ I will change the circles to flower shape
 
 ### The way my work in dialogue with Rafael Rozendaal's return reverse is in:
 
-The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which is pretty deep and philosophical in a sense. It leads me to a deep thought about how the universe works, where everything begins, ends, and a new beginning ensues. When one thinks of a universe, it could be a starry sky or planets.
+The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which leads me to deep thoughts about life and how the universe works, where everything begins, ends, and a new beginning ensues. 
 
-But I came across a very interesting imagery about 
+When one thinks of universe, it could be a starry sky or planets, but I came across a project called [Cosmic Bloom](https://outland.art/cosmic-bloom/) by Leo Villareal that also achieved effective complexity. The artist draws from the inspirations of 'organic and biological structures, stellar phenomena, and atomic patterns', layering and multiplying geometric forms with algorithms to create random moving patterns, which are likely resembles flowers, hence its name. 
 
-[Cosmic Bloom by Leo Villareal](https://outland.art/cosmic-bloom/)
-The works are produced using custom live code and inspired by organic and biological structures, stellar phenomena, and atomic patterns. Each digital artwork in this new collection is unique and features intricate geometric forms that are layered and multiplied, creating captivating patterns set in a non-repeating and constant motion
+Using the imagery of a flower to represent the universe is not entirely new, but the fact that something so vast like the universe can be reduced to a small thing like flower is really cute and organic. 
+
+So I will respond to Rafael Rozendaa's *return universe* indirectly through the pattern of a flower disk floret, perhaps a sunflower's.
 
 ### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
