@@ -75,7 +75,9 @@ This is my process.
 
 # Homework 3
 
-## Cute
+## AT1 Concepts
+
+### Cute
 
 As far as I understand about Sianne Ngai's cute aesthetic, cuteness is beyond being 'warm and fuzzy', its power and darkness lurk behind the vulnerable disguise. Cuteness makes people want to protect it, its fragility triggers not only care and empathy for it, but also the urge to control it and to justify our fantasy, which is the 'sadist' and 'fetishes' that I think Ngai meant. 
 
@@ -93,7 +95,7 @@ Although the cute aesthetic influences consumption and has kitsch quality, I fin
 
 The cute aesthetic can be thought as a way for us to think about the meaningful relationship between the subject and consumption, and offer a deeper understanding about what we humans are fascinated with and scared of.
 
-## Effective Complexity
+### Effective Complexity
 
 As defined during lecture, Effective Complexity is the balance between non-randomness (cohenrence) and non-redundancy (spiciness).
 
@@ -104,3 +106,5 @@ Therefore, effective complexity offers a structure where things can have similar
 For example, there is effective complexity in [Matt DesLauriers' Meridian](https://meridian.mattdesl.com/) project. The creative coder uses JavaScript program to make unique stratified landform paintings with random algorithms. The forms looks similar but they also varied and have different colors from each other, making them quite cute to me.
 
 ![Meridian by Matt Deslauriers](/hw_w3/meridian_mattdesl.jpg)
+
+## AT1 Journey
