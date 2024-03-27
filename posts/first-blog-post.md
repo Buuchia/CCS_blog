@@ -84,7 +84,7 @@ At first I don't not understand about the association between cuteness and consu
 
 ![My moo cat](/hw_w3/moo_cat.jpg)
 
-When I look at my cats, they look so silly as if they could not live without me taking care of them. They are cute because they trigger my maternal instinct. I always want to pamper them and give them all the best, which leads me to buy all sorts of toys and food that they sometimes don't even bother to touch. Yet I still keep buying those things despite their liking or not, to a point I start asking myself if all these consumption were truly for them, or my cats' cuteness was just an excuse for me to satisfy my own fantasy of being a cat mom. Cuteness in this sense grasps the desire or fetish of the protector to demand more consumption, while the consumer is willing to consume for one wants no exchange value but cuteness in return, hence the power of its powerlessness.
+When I look at my cats, they look so silly as if they could not live without me taking care of them. They are cute because they trigger my maternal instinct. I always want to pamper them and give them all the best, which leads me to buy all sorts of clothes,toys and food that they sometimes don't even bother to touch. Yet I still keep buying those things despite their liking or not, to a point I start asking myself if all these consumption were truly for them, or my cats' cuteness was just an excuse for me to satisfy my own fantasy of them wearing, playing, and eating those things and of myself being a devoted cat mom. Cuteness in this sense grasps the desire or fetish of the protector to demand more consumption, while the consumer is willing to consume for one wants no exchange value but cuteness in return, hence the power of its powerlessness.
 
 Since I nurture my cats from when they were babies (and still are babies!) and cuddle them all the time, it is difficult to not think of them as my possessions. They kind of turned into my obsession, so when they act cute and friendly towards other people, sometimes I feel jealous and just want them to be cute to only me, or even feel the urge to hide them away so they can only be mine. I realize cuteness' intimacy does have the power to bring out the 'sadist', aggressive, and controlling tendency in a human nature.
 
@@ -112,12 +112,23 @@ I chose to respond to Rafael Rozendaal's [*return reverse*](https://www.returnre
 
 The circles in the work slowly expand from the center of the website, as if they invite viewers to come closer, having the quality of intimacy that belongs to the cute aesthetic category. Although the work makes me feel that I am in a meditative trance at first, the longer I look at it, the more drained I feel. It demands my attention, triggering me to anticipate the next circle or next color coming out from its origin, so it's similar to what Ngai mentioned about the influence of cute on consumption. Additionally this work gradually becomes more difficult to consume, almost resisting to let viewer absorb at their own pace, so it also has that kind of avant-garde tactic associated with Ngai's cute aesthetic.
 
-The artist employed effective complexity by layering simple circles with rotating hues of the colour wheel. These shapes have the same mechanic: born, expand, a new born drawn on top, and loop forever, but because each shape's color is varied and blended naturally together, the work achieves the balance between cohenrence (refering to shapes and their behaviour) and randomness (refering to the color).
+The artist employed effective complexity by generating iterations of simple circles with rotating hues of the colour wheel. These shapes have the same mechanic: born, expand, a new born drawn on top, and loop forever, but because each shape's color is varied and blended naturally together, the work achieves the balance between cohenrence (refering to shapes and their behaviour) and randomness (refering to the color).
 
 ### Atributes of the original work I would like to retain
 
+I like the 
+
 ### Aspects I would like to improve/change
 
+I will change the circles to flower shape
+
 ### The way my work in dialogue with Rafael Rozendaal's return reverse is in:
+
+The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which is pretty deep and philosophical in a sense. It leads me to a deep thought about how the universe works, where everything begins, ends, and a new beginning ensues. When one thinks of a universe, it could be a starry sky or planets.
+
+But I came across a very interesting imagery about 
+
+[Cosmic Bloom by Leo Villareal](https://outland.art/cosmic-bloom/)
+The works are produced using custom live code and inspired by organic and biological structures, stellar phenomena, and atomic patterns. Each digital artwork in this new collection is unique and features intricate geometric forms that are layered and multiplied, creating captivating patterns set in a non-repeating and constant motion
 
 ### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
