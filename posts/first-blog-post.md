@@ -114,10 +114,10 @@ The circles in the work slowly expand from the center of the website, as if they
 
 The artist employed effective complexity by layering simple circles with rotating hues of the colour wheel. These shapes have the same mechanic: born, expand, a new born drawn on top, and loop forever, but because each shape's color is varied and blended naturally together, the work achieves the balance between cohenrence (refering to shapes and their behaviour) and randomness (refering to the color).
 
-## Atributes of the original work I would like to retain
+### Atributes of the original work I would like to retain
 
-## Aspects I would like to improve/change
+### Aspects I would like to improve/change
 
-## The way my work in dialogue with Rafael Rozendaal's return reverse is in:
+### The way my work in dialogue with Rafael Rozendaal's return reverse is in:
 
-## How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
+### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
