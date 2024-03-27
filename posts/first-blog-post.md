@@ -123,7 +123,7 @@ The artist employed effective complexity by generating iterations of simple circ
 - Change the circles to flower shape.
 - Randomize color of the background in time with the flower transformation, instead of randomizing color of petals.
 
-### The way my work in dialogue with Rafael Rozendaal's return reverse is in:
+### The way my work in dialogue with Rafael Rozendaal's *return reverse* is in:
 The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which leads me to deep thoughts about life and how the universe works, where everything begins, ends, and a new beginning ensues. 
 
 When one thinks of universe, it could be a starry sky or planets, but I came across a project called [Cosmic Bloom](https://outland.art/cosmic-bloom/) by Leo Villareal that also achieved effective complexity. The artist draws from the inspirations of 'organic and biological structures, stellar phenomena, and atomic patterns', layering and multiplying geometric forms, and using algorithms to create random moving patterns, which resembles flowers, hence its name. 
