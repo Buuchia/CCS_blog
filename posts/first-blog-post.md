@@ -97,5 +97,5 @@ This relationship suggests a structure where elements can be organized into a wa
 
 Therefore, effective complexity offers a structure where things can have similarities but also variations between each other. Within a cute aesthetic framework, non-randomness and a little bit of randomness make things cute and juicier.
 
-For example, there is effective complexity in Matt DesLauriers' Meridian project. The creative coder uses JavaScript program to make unique stratified landform paintings with random algorithms. The forms looks similar but they also varied and have different colors from each other, making them kinda cute to me.
+For example, there is effective complexity in [Matt DesLauriers' Meridian](https://meridian.mattdesl.com/) project. The creative coder uses JavaScript program to make unique stratified landform paintings with random algorithms. The forms looks similar but they also varied and have different colors from each other, making them kinda cute to me.
 ![Meridian by Matt Deslauriers](/static/hw_w3/meridian_mattdesl.jpg)
