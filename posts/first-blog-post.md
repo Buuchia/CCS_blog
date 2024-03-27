@@ -95,4 +95,6 @@ As defined during lecture, Effective Complexity is the balance between non-rando
 
 This relationship suggests a structure where elements can be organized into a way that they aren't completely monotonous or completly chaotic. Monotomy is boring and repetitive, while chaos is too difficult to comprehend.
 
-Therefore, effective complexity offers a structure where things can have similarities but also variations between each other, so non-randomness and a little bit of randomness make things juicier.
+Therefore, effective complexity offers a structure where things can have similarities but also variations between each other. Within a cute aesthetic framework, non-randomness and a little bit of randomness make things cute and juicier.
+
+![Meridian by Matt Deslauriers](/static/hw_w3/meridian_mattdesl.jpg)
