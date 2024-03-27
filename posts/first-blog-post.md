@@ -116,7 +116,9 @@ The artist employed effective complexity by generating iterations of simple circ
 
 ### Atributes of the original work I would like to retain
 
-I like the 
+- Shape drawn in the centre of the canvas.
+- Meditative/Hypnotizing feel.
+slow-motion approach of the shapes
 
 ### Aspects I would like to improve/change
 
@@ -126,10 +128,23 @@ I will change the circles to flower shape
 
 The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which leads me to deep thoughts about life and how the universe works, where everything begins, ends, and a new beginning ensues. 
 
-When one thinks of universe, it could be a starry sky or planets, but I came across a project called [Cosmic Bloom](https://outland.art/cosmic-bloom/) by Leo Villareal that also achieved effective complexity. The artist draws from the inspirations of 'organic and biological structures, stellar phenomena, and atomic patterns', layering and multiplying geometric forms with algorithms to create random moving patterns, which are likely resembles flowers, hence its name. 
+When one thinks of universe, it could be a starry sky or planets, but I came across a project called [Cosmic Bloom](https://outland.art/cosmic-bloom/) by Leo Villareal that also achieved effective complexity. The artist draws from the inspirations of 'organic and biological structures, stellar phenomena, and atomic patterns', layering and multiplying geometric forms, and using algorithms to create random moving patterns, which resembles flowers, hence its name. 
 
-Using the imagery of a flower to represent the universe is not entirely new, but the fact that something so vast like the universe can be reduced to a small thing like flower is really cute and organic. 
+Using the imagery of a flower to represent the universe is not entirely new, but the fact that something so vast like the universe can be reduced to a small thing like flower is really cute and organic. I really like the idea that digital works
+ can be natural.
 
-So I will respond to Rafael Rozendaa's *return universe* indirectly through the pattern of a flower disk floret, perhaps a sunflower's.
+So I will communicate with Rafael Rozendaa's *return universe* through the pattern of a flower's disk floret, perhaps like that of a [sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03).
+
+![Sunflower's disk floret](/hw_w3/sunflower.jpg)
 
 ### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
+**Design Concept** 
+1. I will create a hypnotic flower. 
+2. The hypnotizing effect is needed to evoke the feeling of meditation then gradually turns into somewhat trippy if the viewer maintains the gaze with it after a long time. 
+
+**Javascript Technique**
+- Flower stays in the center of the canvas.
+- Each flower shape has some transparency, so not solid fill.
+- Hypnotizing effect may be achieved with slow motion, when the flower layers transform, when they are bigger and approaching.
+- Rotating hue
+- Blend mode
