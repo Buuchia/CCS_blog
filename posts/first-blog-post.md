@@ -81,9 +81,13 @@ As far as I understand about Sianne Ngai's cute aesthetic, cuteness is beyond be
 
 At first I don't not understand about the association between cuteness and consumption, but it somewhat makes more sense when I take my cats as an example to explain this.
 
+![My moo cat](/hw_w3/moo_cat.jpg)
+
 When I look at my cats, they look so silly as if they could not live without me taking care of them. They are cute because they trigger my maternal instinct. I always want to pamper them and give them all the best, which leads me to buy all sorts of toys and food that they sometimes don't even bother to touch. Yet I still keep buying those things despite their liking or not, to a point I start asking myself if all these consumption were truly for them, or my cats' cuteness was just an excuse for me to satisfy my own fantasy of being a cat mom. Cuteness in this sense grasps the desire or fetish of the protector to demand more consumption, while the consumer is willing to consume for one wants no exchange value but cuteness in return, hence the power of its powerlessness.
 
 Since I nurture my cats from when they were babies (and still are babies!) and cuddle them all the time, it is difficult to not think of them as my possessions. They kind of turned into my obsession, so when they act cute and friendly towards other people, sometimes I feel jealous and just want them to be cute to only me, or even feel the urge to hide them away so they can only be mine. I realize cuteness' intimacy does have the power to bring out the 'sadist', aggressive, and controlling tendency in a human nature.
+
+![My british shorthair cat](/hw_w3/brit_short.jpg)
 
 Although the cute aesthetic influences consumption and has kitsch quality, I find it interesting that through an art medium, it may be avant-garde and challenge easy consumption. Cute in this context plays a critical part in assessing artistic expression.
 
@@ -98,4 +102,5 @@ This relationship suggests a structure where elements can be organized into a wa
 Therefore, effective complexity offers a structure where things can have similarities but also variations between each other. Within a cute aesthetic framework, non-randomness and a little bit of randomness make things cute and juicier.
 
 For example, there is effective complexity in [Matt DesLauriers' Meridian](https://meridian.mattdesl.com/) project. The creative coder uses JavaScript program to make unique stratified landform paintings with random algorithms. The forms looks similar but they also varied and have different colors from each other, making them quite cute to me.
+
 ![Meridian by Matt Deslauriers](/hw_w3/meridian_mattdesl.jpg)
