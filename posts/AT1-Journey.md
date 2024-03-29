@@ -123,7 +123,7 @@ The output is 5 times we get the values between -20 and 20.
 
 
 ### Problems
-When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
+1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
 
 ![flower - skew rotation](/a1_process/flower-skew-angle.png)
 
@@ -139,11 +139,16 @@ x[i] = (r + f_radius) *cos(angle + rotate)
 y[i] = (r + f_radius) *sin(angle + rotate) 
 ```
 
-
-In the console, there are 5 flowers in the array but because they all have the same radius, it looks like there is only 1 flower on the canvas.
+2. In the console, there are 5 flowers in the array but because they all have the same radius, it looks like there is only 1 flower on the canvas.
 
 ![5 flowers stack on top each other](/a1_process/flowers-5-into-1.png)
 
 To solve this, I modified the radius parameter so that each new flower created will be smaller than the previous one.
 
 ![flowers with different radius](/a1_process/flowers-smaller-radius.png)
+
+3. When I apply the `blendMode(DIFFERENCE)`, the flower has a strobe light effect.
+
+![strobing flower](/a1_process/flowers-strobe.png)
+
+To solve this, I had to add `push()` before and `pop()`.
