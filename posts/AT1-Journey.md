@@ -78,7 +78,7 @@ function setup() {
 
 function draw() {
   background(220);
-  translate(innerWidth/2, innerHeight/2)
+  translate(width/2, height/2)
   beginShape()
   for (let i = 0; i < pts; i++){ // instead of drawing function, using for loop 
     let angle = i/pts * 360 //set up angle, evenly space the points
