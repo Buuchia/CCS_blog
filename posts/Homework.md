@@ -175,22 +175,3 @@ function draw() {
 ```
 So using ==translate()== function to move the origin to the centre of the canvas.
 
-### Trigonometry
-Study of the relationship between sides and angles of a triangle.
-Focus on a right triangle: one 90 degree angle on the right and three sides. The angle opposite to the 90 degree angle is called theta.
-
-![Trigonometry](/concept_notes/trigo_1.png)
-
-![SOH CAH TOA](/concept_notes/trigo_2.png)
-
-### Coordinate Systems:
-Using x and y axis to locate a point.
-
-In computer graphics, Y axis increases from top to bottom, unlike the traditional Y axis.
-
-### Converting (R, theta) to (x, y)
-
-![Conversion formula](/concept_notes/convert.png)
-
-x = R * cos(theta)
-y = R * sin(theta)
