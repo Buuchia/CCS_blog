@@ -114,8 +114,8 @@ f_radius = f_amp * cos(angle * period)
 
 ```
 
-For example: if f_amp = 20; period = 5
-f_radius = 20 * cos(angle * 5) 
+For example: if f_amp = 20; period = 5 <br>
+f_radius = 20 * cos(angle * 5) <br>
 The output is 5 times we get the values between -20 and 20.
 
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
