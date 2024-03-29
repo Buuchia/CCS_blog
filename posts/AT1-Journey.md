@@ -144,4 +144,6 @@ In the console, there are 5 flowers in the array but because they all have the s
 
 ![5 flowers stack on top each other](/a1_process/flowers-5-into-1.png)
 
+To solve this, I modified the radius parameter so that each new flower created will be smaller than the previous one.
 
+![flowers with different radius](/a1_process/flowers-smaller-radius.png)
