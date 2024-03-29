@@ -90,4 +90,7 @@ function draw() {
 }
 ```
 
+![shapes in middle](/a1_process/middle-shape-01.png)
+
+The shape is not a circle yet because the default angle mode is in radians, so I have to set it to degrees, using `angleMode(DEGREES)`.
 
