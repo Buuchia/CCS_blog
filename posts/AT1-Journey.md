@@ -57,7 +57,7 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 
 ### Process
 
-`vertex()` function draws points, but alone it doesn't show anything on screen, so we need additional functions beginShape() and endShape().
+`vertex()` function draws points, but alone it doesn't show anything on screen, so we need additional functions `beginShape()` and `endShape()`.
 
 The origin is still at the top left corner of the canvas.
 
