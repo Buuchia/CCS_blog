@@ -119,3 +119,20 @@ f_radius = 20 * cos(angle * 5) <br>
 The output is 5 times we get the values between -20 and 20.
 
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
+
+
+
+### Problems
+When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add rotate in the equation of the y location.
+
+Wrong code:
+```javascript
+x[i] = (r + f_radius) *cos(angle + rotate) 
+y[i] = (r + f_radius) *sin(angle)
+```
+
+Correct code:
+```javascript
+x[i] = (r + f_radius) *cos(angle + rotate) 
+y[i] = (r + f_radius) *sin(angle + rotate) 
+```
