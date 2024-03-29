@@ -106,4 +106,18 @@ y[i] = (r + f_radius) *sin(angle)
 
 ```
 
+To make the wavy pattern,
 
+```javascript
+
+f_radius = f_amp * cos(angle * period)
+
+```
+
+This equation outputs the number between negative and positive of f_amp, and period is the number of times we get the value between negative and positive of f_amp.
+
+For example: if f_amp = 20; period = 5
+f_radius = 20 * cos(angle * 5) 
+The output is 5 times we get the values between -20 and 20.
+
+![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
