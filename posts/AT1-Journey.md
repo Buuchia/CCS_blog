@@ -151,4 +151,4 @@ To solve this, I modified the radius parameter so that each new flower created w
 
 ![strobing flower](/a1_process/flowers-strobe.png)
 
-To solve this, I had to add `push()` before and `pop()`.
+To solve this, I had to add `push()` before the blendMode(DIFFERENCE) and `pop()` after the endShape(CLOSE).
