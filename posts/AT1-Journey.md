@@ -85,8 +85,8 @@ function draw() {
     x[i] = r*cos(angle) //concept of trigonometry to convert (r,theta) to (x,y)
     y[i] = r*sin(angle) 
     vertex(x[i], y[i])
-   endShape()
   }
+  endShape()
 }
 ```
 
@@ -94,3 +94,4 @@ function draw() {
 
 The shape is not a circle yet because the default angle mode is in radians, so I have to set it to degrees, using `angleMode(DEGREES)`.
 
+First and last point of the shape is not connected so I use `endShape(CLOSE)` to bridge them. 
