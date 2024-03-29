@@ -61,12 +61,12 @@ The origin is still at the top left corner of the canvas.
 
 ![points at original origin](/a1_process/point-01.png)
 
-So using `translate()` function to move the origin to the centre of the canvas.
+So using `translate()` function to move the origin to the middle of the canvas.
 
 ```javascript
 function draw() {
   background(220);
-  translate()
+  translate(width/2, height/2)
   beginShape()
   for (let i = 0; i < pts; i++){
     let angle = i/pts * 360 
