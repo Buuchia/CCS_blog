@@ -95,3 +95,5 @@ function draw() {
 The shape is not a circle yet because the default angle mode is in radians, so I have to set it to degrees, using `angleMode(DEGREES)`.
 
 First and last point of the shape is not connected so I use `endShape(CLOSE)` to bridge them. 
+
+The shape is still not fully a circle because it needs more points, so change `pts = 100` makes the edge round.
