@@ -97,3 +97,12 @@ The shape is not a circle yet because the default angle mode is in radians, so I
 First and last point of the shape is not connected so I use `endShape(CLOSE)` to bridge them. 
 
 The shape is still not fully a circle because it needs more points, so change `pts = 100` makes the edge round.
+
+To make the flower, we don't want its radius to be 100 throughout the circle, so we add the flower's radius, declaring this property `f.radius`, to the circle's radius `r`.
+
+```javascript
+x[i] = (r + f_radius) *cos(angle)
+y[i] = (r + f_radius) *sin(angle)
+
+```
+
