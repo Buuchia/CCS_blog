@@ -125,6 +125,8 @@ The output is 5 times we get the values between -20 and 20.
 ### Problems
 When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add rotate in the equation of the y location.
 
+![flower - skew rotation](/a1_process/flower-skew-angle.png)
+
 Wrong code:
 ```javascript
 x[i] = (r + f_radius) *cos(angle + rotate) 
