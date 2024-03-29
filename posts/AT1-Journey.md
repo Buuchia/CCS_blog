@@ -138,3 +138,10 @@ Correct code:
 x[i] = (r + f_radius) *cos(angle + rotate) 
 y[i] = (r + f_radius) *sin(angle + rotate) 
 ```
+
+
+In the console, there are 5 flowers in the array but because they all have the same radius, it looks like there is only 1 flower on the canvas.
+
+![5 flowers stack on top each other](/a1_process/flowers-5-into-1.png)
+
+
