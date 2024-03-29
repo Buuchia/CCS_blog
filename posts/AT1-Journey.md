@@ -72,5 +72,5 @@ function draw() {
   }
 }
 ```
-So using ==translate()== function to move the origin to the centre of the canvas.
+So using == translate() == function to move the origin to the centre of the canvas.
 
