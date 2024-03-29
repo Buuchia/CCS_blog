@@ -1,0 +1,14 @@
+---
+title:  Concepts for A1 response
+published_at: 2024-03-06
+snippet: My notes about creative coding math
+disable_html_sanitization: true
+---
+
+### Trigonometry
+Study of the relationship between sides and angles of a triangle.
+Focus on a right triangle: one 90 degree angle on the right and three sides. The angle opposite to the 90 degree angle is called theta.
+
+![Trigonometry](/concept_notes/trigo_1.png)
+
+![SOH CAH TOA](/concept_notes/trigo_2.png)
