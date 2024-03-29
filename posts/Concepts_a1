@@ -12,3 +12,21 @@ Focus on a right triangle: one 90 degree angle on the right and three sides. The
 ![Trigonometry](/concept_notes/trigo_1.png)
 
 ![SOH CAH TOA](/concept_notes/trigo_2.png)
+
+### Coordinate Systems:
+Using x and y axis to locate a point.
+
+In computer graphics, Y axis increases from top to bottom, unlike the traditional Y axis.
+
+### Converting (R, theta) to (x, y)
+
+![Conversion formula](/concept_notes/convert.png)
+
+x = R * cos(theta)
+y = R * sin(theta)
+
+```javascript
+
+
+
+```
