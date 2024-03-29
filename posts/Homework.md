@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: Homework
 published_at: 2024-03-06
 snippet: I am excited about exploring the world of creative coding!
 disable_html_sanitization: true
