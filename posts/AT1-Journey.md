@@ -57,6 +57,8 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 
 ### Process
 
+`vertex()` function draws points, but alone it doesn't show anything on screen, so we need additional functions beginShape() and endShape().
+
 The origin is still at the top left corner of the canvas.
 
 ![points at original origin](/a1_process/point-01.png)
@@ -64,14 +66,24 @@ The origin is still at the top left corner of the canvas.
 So using `translate()` function to move the origin to the middle of the canvas.
 
 ```javascript
+//Make 2 arrays to store the x and y location of each of the points
+let x = []
+let y = []
+let pts = 10 //the number of the points making up our circle
+let r = 100 //the radius of the circle
+
+function setup() {
+  createCanvas(innerWidth, innerHeight); //full-screen
+}
+
 function draw() {
   background(220);
   translate(width/2, height/2)
   beginShape()
-  for (let i = 0; i < pts; i++){
-    let angle = i/pts * 360 
-    x[i] = r*cos(angle)
-    y[i] = r*sin(angle)
+  for (let i = 0; i < pts; i++){ // instead of drawing function, using for loop 
+    let angle = i/pts * 360 //set up angle, evenly space the points
+    x[i] = r*cos(angle) //concept of trigonometry to convert (r,theta) to (x,y)
+    y[i] = r*sin(angle) 
     vertex(x[i], y[i])
    endShape()
   }
