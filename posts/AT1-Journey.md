@@ -14,7 +14,7 @@ disable_html_sanitization: true
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
-Note: Since the flowers are generated randomly, sometimes the flowers' upper layers look more pale than the lower ones, this is a flaw that I will address in more detail in the **Problem** section. I am sorry, but please refresh the page until you find a flower you may want to explore.
+Note: Since the flowers are generated randomly, sometimes the flowers' upper layers look more pale than the lower ones, this is a flaw that I will address in more detail in the **Problems** section. I am sorry, but please refresh the page until you find a flower you may want to explore.
 
 ## AT1 Journey
 I chose to respond to Rafael Rozendaal's [*return reverse*](https://www.returnreverse.com/) website.
@@ -130,7 +130,7 @@ The output is 5 times we get the values between -20 and 20.
 
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
 
-### Problems
+## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
 
 ![flower - skew rotation](/a1_process/flower-skew-angle.png)
