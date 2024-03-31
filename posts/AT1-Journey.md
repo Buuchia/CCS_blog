@@ -168,9 +168,26 @@ First, this one flashes colors too quick and too chaotic, unlike my purpose of c
 
 ![flowers fill - lerp is too fast](/a1_process/fill-lerp-toofast.png)
 
-Secondly, I thought maybe assigning value to the flowers' fill in `setup()` function will avoid the strobing effect. It did give each flower a different hue and looked pretty cute actually, but it stopped the flowers' rotation too, so this failed as well.
+Secondly, I thought maybe assigning value to the flowers' fill in `setup()` function will avoid the chaotic hue change. It did give each flower a different hue and looked pretty cute actually, but it stopped the flowers' rotation too, so this failed as well.
 
 ![flowers fill - setup no rotation](/a1_process/flower-fill-color-setup-no-rot.png)
+
+5. Testing `scale()` function <br>
+Since I want to let user interact with my flower, when mouse is pressed, the scale of the flowers is multiply by the number inside the bracket of the function. I played around with it and produced some weird results.
+
+This happened when the scale is affected by mouseX when the position is not too far away on the left side of canvas. And the shapes' edges are jaggy, too.
+
+![scale - mouseX moves little](/a1_process/scale-mouseX-little.png)
+
+When mouseX is too far away, it is a complete chaos.
+![scale - mouseX moves too much](/static/a1_process/scale-mouseX-much.png)
+
+Weirder thing when I added in mouseY just for fun.
+![scale - mouseY](/static/a1_process/scale-mouseY.png)
+
+
+
+
 
 
 
