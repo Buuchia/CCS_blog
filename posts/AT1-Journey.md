@@ -5,7 +5,7 @@ snippet: My documentation of responding to Rafael Rozendaal's return reverse web
 disable_html_sanitization: true
 ---
 
-### Result
+## Result
 <iframe id="hypnotic_flower" src="https://editor.p5js.org/Buuchia/full/j90PdpOUjC"></iframe>
 
 <script type="module">
@@ -14,10 +14,12 @@ disable_html_sanitization: true
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
+Note: Since the flowers are generated randomly, sometimes the flowers' upper layers look more pale than the lower ones, this is a flaw that I will address in more detail in the **Problem** section. I am sorry, but please refresh the page until you find a flower you may want to explore.
+
 ## AT1 Journey
 I chose to respond to Rafael Rozendaal's [*return reverse*](https://www.returnreverse.com/) website.
 
-The circles in the work slowly expand from the center of the website, as if they invite viewers to come closer, having the quality of intimacy that belongs to the cute aesthetic category. Although the work makes me feel that I am in a meditative trance at first, the longer I look at it, the more drained I feel. It demands my attention, triggering me to anticipate the next circle or next color coming out from its origin, so it's similar to what Ngai mentioned about the influence of cute on consumption. Additionally this work gradually becomes more difficult to consume, almost resisting to let viewer absorb at their own pace, so it also has that kind of avant-garde tactic associated with Ngai's cute aesthetic.
+The circles in the work slowly expand from the center of the website, as if they invite viewers to come closer towards them like being in a tunnel, having the quality of intimacy that belongs to the cute aesthetic category. Although the work makes me feel that I am in a meditative trance at first, the longer I look at it, the more drained I feel. It demands my attention, triggering me to anticipate the next circle or next color coming out from its origin, so it's similar to what Ngai mentioned about the influence of cute on consumption. Additionally this work gradually becomes more difficult to consume, almost resisting to let viewer absorb at their own pace, so it also has that kind of avant-garde tactic associated with Ngai's cute aesthetic.
 
 The artist employed effective complexity by generating iterations of simple circles with rotating hues of the colour wheel. These shapes have the same mechanic: born, expand, a new born drawn on top, and loop forever, but because each shape's color is varied and blended naturally together, the work achieves the balance between cohenrence (refering to shapes and their behaviour) and randomness (refering to the color).
 
