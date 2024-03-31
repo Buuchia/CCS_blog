@@ -207,3 +207,10 @@ These are some examples when they are generated randomly:
 
 I am very sad about this and I tried to tweaks flowers' properties, which I think improved the paleness little bit. But I would like to know how I can address this issue properly please, since whatever I tweak in random() and lerpColor() did not solve the problem.
 
+I guess that I should use the reverse method, but since I have not understood it well from the *falling falling* example, the code produced the following strange results.
+
+![wrong reverse 1](/a1_process/error-1)
+
+![wrong reverse 2](/a1_process/error-2)
+
+
