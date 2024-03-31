@@ -147,8 +147,12 @@ The output is 5 times we get the values between -20 and 20.
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
 
 Following the tutorial instructions, I have simple flowers with a `fill(255)` and `blendMode(EXCLUSIONS`).
+
 ![flowers - basic colour](/a1_process/flower-original_color.png)
 
+However, I do not want to create the exact flowers like the tutorial and I also want the flower layers to have some transparency and different colours, so I tweaks some properties, as seen in the example below.
+
+![flowers - different colour on each layer](/a1_process/good-3.png)
 
 ## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
