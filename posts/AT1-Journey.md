@@ -64,9 +64,13 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 - Array of flowers, fill colours of the flowers.
 - `resizeCanvas()` so that flowers always stay in the centre of canvas whenever canvas is resized.
 
-For this work, I aim to achieve the cute aesthetic with a flower with colorful layers that asking for attention from viewers. When they interact with the flowers, as if being more intimate with it either by pressing mouse on its territory (the canvas) or itself, they will see the more unsettling, not-for-easy-consumption nature behind its cute appearance.
+For this work, I aim to achieve the cute aesthetic with a flower with colorful layers that asking for attention from viewers, but it will drain their energy after a while. When they interact with the flowers, as if being more intimate with it either by pressing mouse on its territory (the canvas) or itself, they will see the more unsettling, not-for-easy-consumption nature behind its cute appearance. 
+
+Slightly adjusting the rotation direction of the flowers' layers and randomizing the hues of flowers to obtain the effective complexity is also another goal. They are the same flowers doing the same thing, but user will get different flowers each time.
 
 ### Process
+
+The process starts from trying to 
 
 `vertex()` function draws points, but alone it doesn't show anything on screen, so we need additional functions `beginShape()` and `endShape()`.
 
