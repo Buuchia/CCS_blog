@@ -5,6 +5,15 @@ snippet: My documentation of responding to Rafael Rozendaal's return reverse web
 disable_html_sanitization: true
 ---
 
+### Result
+<iframe id="hypnotic_flower" src="https://editor.p5js.org/Buuchia/full/j90PdpOUjC"></iframe>
+
+<script type="module">
+ const iframe = document.getElementById(`hypnotic_flower`)
+ iframe.width = iframe.parentNode.scrollWidth
+ iframe.height = iframe.parentNode.scrollWidth + 42
+</script>
+
 ## AT1 Journey
 I chose to respond to Rafael Rozendaal's [*return reverse*](https://www.returnreverse.com/) website.
 
@@ -120,17 +129,6 @@ f_radius = 20 * cos(angle * 5) <br>
 The output is 5 times we get the values between -20 and 20.
 
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
-
-
-### Result
-<iframe id="hypnotic_flower" src="https://editor.p5js.org/Buuchia/full/j90PdpOUjC"></iframe>
-
-<script type="module">
- const iframe = document.getElementById(`hypnotic_flower`)
- iframe.width = iframe.parentNode.scrollWidth
- iframe.height = iframe.parentNode.scrollWidth + 42
-</script>
-
 
 ### Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
