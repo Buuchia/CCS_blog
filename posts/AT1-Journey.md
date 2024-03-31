@@ -165,6 +165,8 @@ State 1
 ![flowers - state 1](/a1_process/scale-state-2.png)
 State 2
 
+Additionally, I also added some comments about the steps, how I understand the codes, and also provided some instructions in the p5 sketch. In the *sketch.js* file, the code starts from line 21.
+
 ## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
 
@@ -256,9 +258,13 @@ I guess that I should use the reverse method, but since I have not understood it
 
 **Tutorials**
 [Learn p5.js for Creative Coding – 5 Beginner Projects](https://www.youtube.com/watch?v=o5t7PxRJSXk)
+
 [p5.js Coding Tutorial | Generative Smiley Faces (Generative Art Series)](https://www.youtube.com/watch?v=HXzEVcPTU-Y)
+
 [How to use scale() in p5.js](https://www.youtube.com/watch?v=pkHZTWOoTLM)
+
 [Trigonometry and Polar Coordinates](https://www.pattvira.com/creative-coding-math/v/trigonometry-and-polar-coordinates)
+
 [How to Rotate Shapes in p5.js (translate, rotate, push, pop)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
 
 
