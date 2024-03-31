@@ -196,14 +196,14 @@ After that, I reckon the background should be simple, just random hue changes sl
 
 5. Pale flowers' fill colours and disastrous solutions
 
-Since I want the layers of flowers to have some transparency look, I use the lerpColor() and random() functions. 
+Since I want the layers of flowers to have some transparency look, I use the `lerpColor()` and `random()` functions in the Flowers class. 
 
-However, although I guess it's because of the lerpColor() that the top flowers' fill often look more muddy than the flowers below it.
+However, although I guess it's because of the lerpColor() that the top flowers' fill often look more muddy than the flowers below it, causing loss of details.
 These are some examples when they are generated randomly:
 
 ![muddy flower 1](/a1_process/bad-1.png)
 
 ![muddy flower 2](/a1_process/bad-4.png)
 
-
+I am very sad about this and I tried to tweaks flowers' properties, which I think improved the paleness little bit. But I would like to know how I can address this issue properly please, since whatever I tweak in random() and lerpColor() did not solve the problem.
 
