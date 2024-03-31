@@ -29,9 +29,10 @@ When one thinks of universe, it could be a starry sky or planets, but I came acr
 
 Using the imagery of a flower to represent the universe is not entirely new, but the fact that something so vast like the universe can be reduced to a small thing like flower is really cute and organic. I really like the idea that digital works can be natural.
 
-So I will communicate with Rafael Rozendaa's *return universe* through the motion of a flower's disk floret pattern, perhaps like that of a [sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03).
+So I will communicate with Rafael Rozendaa's *return universe* through the motion of a hypnotizing flower's pattern.
 
 ![Sunflower's disk floret](/hw_w3/sunflower.jpg)
+[Image of a sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03)
 
 ### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
 **Design Concept** 
