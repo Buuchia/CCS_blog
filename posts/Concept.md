@@ -1,6 +1,6 @@
 ---
 title: Concepts
-published_at: 2024-03-06
+published_at: 2024-03-13
 snippet: My notes about concepts of creative coding
 disable_html_sanitization: true
 ---
