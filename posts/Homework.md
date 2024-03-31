@@ -68,9 +68,9 @@ This is my process.
 
 ![test brush](/hw_w2/test_brush_1.png)
 
-
 ![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
 
+Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
 
 # Homework 3
 
