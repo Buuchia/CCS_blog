@@ -161,3 +161,16 @@ To solve this, I modified the radius parameter so that each new flower created w
 ![strobing flower](/a1_process/flowers-strobe.png)
 
 To solve this, I had to add `push()` before the blendMode(DIFFERENCE) and `pop()` after the endShape(CLOSE).
+
+4. Since I want each flower to have different color, I tried fill with random but the methods were wrong.
+
+First, this one flashes colors too quick and too chaotic, unlike my purpose of creating meditative feel.
+
+![flowers fill - lerp is too fast](/a1_process/fill-lerp-toofast.png)
+
+Secondly, I thought maybe assigning value to the flowers' fill in `setup()` function will avoid the strobing effect. It did give each color a different hue and looked pretty cute actually, but it stopped the flowers' rotation too, so this failed as well.
+
+![flowers fill - setup no rotation](/static/a1_process/flower-fill-color-setup-no-rot.png)
+
+
+
