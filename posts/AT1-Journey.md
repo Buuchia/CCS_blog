@@ -23,16 +23,6 @@ The circles in the work slowly expand from the center of the website, as if they
 
 The artist employed effective complexity by generating iterations of simple circles with rotating hues of the colour wheel. These shapes have the same mechanic: born, expand, a new born drawn on top, and loop forever, but because each shape's color is varied and blended naturally together, the work achieves the balance between cohenrence (refering to shapes and their behaviour) and randomness (refering to the color).
 
-### Atributes of the original work I would like to retain
-- Shape drawn in the centre of the canvas.
-- Meditative/Hypnotizing feel.
-- Slow-motion approach of the shapes, or when they transform.
-- Random color of the petals or not.
-
-### Aspects I would like to improve/change
-- Change the circles to flower shape.
-- Randomize color of the background every time the page refreshes.
-
 ### The way my work in dialogue with Rafael Rozendaal's *return reverse* is in:
 The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which leads me to deep thoughts about life and how the universe works, where everything begins, ends, and a new beginning ensues. 
 
@@ -44,6 +34,16 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 
 ![Sunflower's disk floret](/hw_w3/sunflower.jpg)
 [Image of a sunflower](https://www.freepik.com/free-photo/closeup-shot-beautiful-sunflower-with-bee-it_14256372.htm#fromView=search&page=1&position=1&uuid=4e1b5ad3-c2cf-4601-81b6-7d9d362faa03)
+
+### Atributes of the original work I would like to retain
+- Shape drawn in the centre of the canvas.
+- Meditative/Hypnotizing feel.
+- Slow-motion transformation.
+- Random colours of the shapes.
+
+### Aspects I would like to improve/change
+- Change the circles to flower shape, to match with my design concept.
+- Add mouse interaction. User participation in the original work is quite passive, so I want to let user to interact with my work and explore alternative patterns of the flowers.
 
 ### How JavaScript Techniques and Design Concepts I use contribute to the aesthetic of my response?
 **Design Concept** 
