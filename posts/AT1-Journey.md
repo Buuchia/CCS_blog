@@ -49,6 +49,7 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 **Design Concept** 
 1. I will create a hypnotic flower. 
 2. The hypnotizing effect is needed to evoke the feeling of meditation then gradually turns into somewhat trippy if the viewer maintains the gaze with it after a long time. 
+3. The background's hue will change each time user generate a new version of flowers.
 
 **Javascript Technique**
 - `vertex()`, `push()`, and `pop()` because I will need to draw the flower shape.
@@ -63,7 +64,7 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 - Array of flowers, fill colours of the flowers.
 - `resizeCanvas()` so that flowers always stay in the centre of canvas whenever canvas is resized.
 
-
+For this work, I aim to achieve the cute aesthetic with a flower with colorful layers that asking for attention from viewers. When they interact with the flowers, as if being more intimate with it either by pressing mouse on its territory (the canvas) or itself, they will see the more unsettling, not-for-easy-consumption nature behind its cute appearance.
 
 ### Process
 
