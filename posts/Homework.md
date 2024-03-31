@@ -48,7 +48,7 @@ Using `mouseIsPressed()` function to create circle when the mouse is pressed.
 However, I have not figured out how to do bounce and float yet.
 
 I made a second attempt with the bounce and float effect, adding the gradient effect that I learned from first sketch.
-Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
+Tutorials: [Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
 
 <div align="center">
 <iframe id="float_bounce_02" src="https://editor.p5js.org/Buuchia/full/RuNj1xzEt"></iframe>
