@@ -173,6 +173,7 @@ Secondly, I thought maybe assigning value to the flowers' fill in `setup()` func
 ![flowers fill - setup no rotation](/a1_process/flower-fill-color-setup-no-rot.png)
 
 5. Testing `scale()` function
+
 Since I want to let user interact with my flower, when mouse is pressed, the scale of the flowers is multiply by the number inside the bracket of the function. I played around with it and produced some weird results.
 
 ![scale - mouseX moves little](/a1_process/scale-mouseX-little.png)
