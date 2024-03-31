@@ -180,10 +180,10 @@ This happened when the scale is affected by mouseX when the position is not too 
 ![scale - mouseX moves little](/a1_process/scale-mouseX-little.png)
 
 When mouseX is too far away, it is a complete chaos.
-![scale - mouseX moves too much](/static/a1_process/scale-mouseX-much.png)
+![scale - mouseX moves too much](/a1_process/scale-mouseX-much.png)
 
 Weirder thing when I added in mouseY just for fun.
-![scale - mouseY](/static/a1_process/scale-mouseY.png)
+![scale - mouseY](/a1_process/scale-mouseY.png)
 
 
 
