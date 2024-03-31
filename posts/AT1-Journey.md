@@ -209,8 +209,8 @@ I am very sad about this and I tried to tweaks flowers' properties, which I thin
 
 I guess that I should use the reverse method, but since I have not understood it well from the *falling falling* example, the code produced the following strange results.
 
-![wrong reverse 1](/a1_process/error-1)
+![wrong reverse 1](/a1_process/error-1.png)
 
-![wrong reverse 2](/a1_process/error-2)
+![wrong reverse 2](/static/a1_process/error-2.png)
 
 
