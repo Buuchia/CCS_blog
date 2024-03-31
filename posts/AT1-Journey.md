@@ -159,8 +159,11 @@ By default, in state 1 of the flowers, the odd and even flower layers will rotat
 When a user interact with the flowers, they need to press and hold the mouse anywhere on the canvas to trigger state 2 of the flowers.
 In this state, the flowers' rotation will be faster visibly and the size will increase.
 
-![flowers - state 1](/static/a1_process/)
+![flowers - state 1](/a1_process/scale-state-1.png)
+State 1
 
+![flowers - state 1](/a1_process/scale-state-2.png)
+State 2
 
 ## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
