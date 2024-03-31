@@ -42,7 +42,9 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 
 ![mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
 
-I made a second attempt with the bounce and float effect.
+I made a second attempt with the bounce and float effect. 
+Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
+
 <div align="center">
 <iframe id="float_bounce_02" src="https://editor.p5js.org/Buuchia/full/RuNj1xzEt"></iframe>
 </div>
@@ -70,7 +72,7 @@ This is my process.
 
 ![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
 
-Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
+
 
 # Homework 3
 
