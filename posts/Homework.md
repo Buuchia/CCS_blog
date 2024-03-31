@@ -15,7 +15,7 @@ Hello, world!
 
 # Homework 1
 
-This is my sketch for the grid using nested **for** loop.
+This is my sketch for the grid using nested `for` loop.
 <iframe id="grid" src="https://editor.p5js.org/Buuchia/full/uFLvgJVuw"></iframe>
 
 <script type="module">
@@ -23,6 +23,8 @@ This is my sketch for the grid using nested **for** loop.
  iframe.width = iframe.parentNode.scrollWidth
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
+
+Tutorial: [Nested Loop - Creative Coding with p5.js](https://www.youtube.com/watch?v=A-ebumU7e7s)
 
 This week I choose the work call [Float and Bounce](https://www.floatbounce.com/).
 I try making one circle first to see if I can add gradient to it, and make it bounce or not.
