@@ -205,12 +205,18 @@ These are some examples when they are generated randomly:
 
 ![muddy flower 2](/a1_process/bad-4.png)
 
+Sometimes the random results are nicer with clearer details of the flowers, such as these following results:
+
+![good flower 1](/a1_process/good-1.png)
+
+![good flower 2](/a1_process/good-2.png)
+
 I am very sad about this and I tried to tweaks flowers' properties, which I think improved the paleness little bit. But I would like to know how I can address this issue properly please, since whatever I tweak in random() and lerpColor() did not solve the problem.
 
 I guess that I should use the reverse method, but since I have not understood it well from the *falling falling* example, the code produced the following strange results.
 
 ![wrong reverse 1](/a1_process/error-1.png)
 
-![wrong reverse 2](/static/a1_process/error-2.png)
+![wrong reverse 2](/a1_process/error-2.png)
 
 
