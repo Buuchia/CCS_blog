@@ -147,7 +147,7 @@ The output is 5 times we get the values between -20 and 20.
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
 
 Following the tutorial instructions, I have simple flowers with a `fill(255)` and `blendMode(EXCLUSIONS`).
-![flowers - basic colour](/a1_process/flower-original-color.png)
+![flowers - basic colour](/a1_process/flower-original_color.png)
 
 
 ## Problems
