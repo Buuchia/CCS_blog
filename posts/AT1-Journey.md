@@ -256,7 +256,7 @@ I guess that I should use the reverse method, but since I have not understood it
 
 ![wrong reverse 2](/a1_process/error-2.png)
 
-**Tutorials**
+## Tutorials
 [Learn p5.js for Creative Coding – 5 Beginner Projects](https://www.youtube.com/watch?v=o5t7PxRJSXk)
 
 [p5.js Coding Tutorial | Generative Smiley Faces (Generative Art Series)](https://www.youtube.com/watch?v=HXzEVcPTU-Y)
