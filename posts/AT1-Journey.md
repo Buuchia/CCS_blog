@@ -185,7 +185,13 @@ When mouseX is too far away, it is a complete chaos.
 ![scale - mouseY](/a1_process/scale-mouseY.png)
 Weirder thing when I added in mouseY just for fun.
 
+6. Trying to make radial gradient for background
 
+I tried creating linear gradient for background with this tutorial and it worked but I noticed it was not the look I was looking for and it overpowers the flowers in centre, so I wanted to make the radial gradient background like in the original website.
+
+I think I watched the wrong tutorial about radial gradient, first one created conic gradient actually and my flowers were blocked completely, but it looked pretty cool on its own.
+
+![conic gradient ellipse blocks flowers](/a1_process/error-3-conic-gradient-lose-flower.png)
 
 
 
