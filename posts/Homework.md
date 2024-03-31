@@ -25,7 +25,8 @@ This is my sketch for the grid using nested **for** loop.
 </script>
 
 This week I choose the work call [Float and Bounce](https://www.floatbounce.com/).
-Using **mouseIsPressed** function to create circle when the mouse is pressed.
+I try making one circle first to see if I can add gradient to it, and make it bounce or not.
+Using `mouseIsPressed()` function to create circle when the mouse is pressed.
 <iframe id="float_bounce_01" src="https://editor.p5js.org/Buuchia/full/dQtuHGwJP"></iframe>
 
 <script type="module">
@@ -42,7 +43,9 @@ Using **mouseIsPressed** function to create circle when the mouse is pressed.
 
 ![mouseIsPressed circle](/hw_w1/mouse_click_circles.png)
 
-I made a second attempt with the bounce and float effect. 
+However, I have not figured out how to do bounce and float yet.
+
+I made a second attempt with the bounce and float effect, adding the gradient effect that I learned from first sketch.
 Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html) 
 
 <div align="center">
@@ -55,6 +58,8 @@ Tutorials:[Bouncy Bubbles](https://p5js.org/examples/motion-bouncy-bubbles.html)
  iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
 
+Now the balls are bouncing and floating but they need some conditional statements and mouse interaction.
+Things I could have tried: adding mouse interaction so that when I click on canvas, p5 draws a ball.
 
 # Homework 2
 
@@ -71,6 +76,11 @@ This is my process.
 ![test brush](/hw_w2/test_brush_1.png)
 
 ![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
+
+Problem: the shapes are too chaotic and it is completely separate from the brush.
+
+I think the brush could be an array of many shapes or it can be a morphing circle that speeds up. I am not sure but I could look into some tutorials. 
+Links for references: [Coding Challenge #81.1: Circle Morphing - Part 1](https://www.youtube.com/watch?v=u2D4sxh3MTs)
 
 
 # Homework 3
