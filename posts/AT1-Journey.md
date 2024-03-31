@@ -154,6 +154,14 @@ However, I do not want to create the exact flowers like the tutorial and I also 
 
 ![flowers - different colour on each layer](/a1_process/good-3.png)
 
+By default, in state 1 of the flowers, the odd and even flower layers will rotate in different direction slowly.
+
+When a user interact with the flowers, they need to press and hold the mouse anywhere on the canvas to trigger state 2 of the flowers.
+In this state, the flowers' rotation will be faster visibly and the size will increase.
+
+
+
+
 ## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
 
