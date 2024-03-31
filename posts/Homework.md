@@ -73,7 +73,6 @@ This is my process.
 ![chaotic random vector shape](/hw_w2/chaotic_random_vector_shape.png)
 
 
-
 # Homework 3
 
 ## AT1 Concepts
