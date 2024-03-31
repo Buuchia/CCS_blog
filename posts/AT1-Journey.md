@@ -193,7 +193,9 @@ I think I watched the wrong tutorial about radial gradient, first one created co
 
 ![conic gradient ellipse blocks flowers](/a1_process/error-3-conic-gradient-lose-flower.png)
 
+After that, I reckon the background should be simple, just random hue changes slowly each frame, since the main focus is the flowers, which has a lot of hues already.
 
+5. Pale flowers' fill colors and disastrous solutions
 
 
 
