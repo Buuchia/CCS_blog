@@ -168,7 +168,7 @@ First, this one flashes colors too quick and too chaotic, unlike my purpose of c
 
 ![flowers fill - lerp is too fast](/a1_process/fill-lerp-toofast.png)
 
-Secondly, I thought maybe assigning value to the flowers' fill in `setup()` function will avoid the strobing effect. It did give each color a different hue and looked pretty cute actually, but it stopped the flowers' rotation too, so this failed as well.
+Secondly, I thought maybe assigning value to the flowers' fill in `setup()` function will avoid the strobing effect. It did give each flower a different hue and looked pretty cute actually, but it stopped the flowers' rotation too, so this failed as well.
 
 ![flowers fill - setup no rotation](/a1_process/flower-fill-color-setup-no-rot.png)
 
