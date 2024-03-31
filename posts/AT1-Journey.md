@@ -194,7 +194,16 @@ I think I watched the wrong tutorial about radial gradient, first one created co
 
 After that, I reckon the background should be simple, just random hue changes slowly each frame, since the main focus is the flowers, which has a lot of hues already.
 
-5. Pale flowers' fill colors and disastrous solutions
+5. Pale flowers' fill colours and disastrous solutions
+
+Since I want the layers of flowers to have some transparency look, I use the lerpColor() and random() functions. 
+
+However, although I guess it's because of the lerpColor() that the top flowers' fill often look more muddy than the flowers below it.
+These are some examples when they are generated randomly:
+
+![muddy flower 1](/a1_process/bad-1.png)
+
+![muddy flower 2](/a1_process/bad-4.png)
 
 
 
