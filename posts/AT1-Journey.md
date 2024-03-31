@@ -172,18 +172,17 @@ Secondly, I thought maybe assigning value to the flowers' fill in `setup()` func
 
 ![flowers fill - setup no rotation](/a1_process/flower-fill-color-setup-no-rot.png)
 
-5. Testing `scale()` function <br>
+5. Testing `scale()` function
 Since I want to let user interact with my flower, when mouse is pressed, the scale of the flowers is multiply by the number inside the bracket of the function. I played around with it and produced some weird results.
 
+![scale - mouseX moves little](/a1_process/scale-mouseX-little.png)
 This happened when the scale is affected by mouseX when the position is not too far away on the left side of canvas. And the shapes' edges are jaggy, too.
 
-![scale - mouseX moves little](/a1_process/scale-mouseX-little.png)
-
-When mouseX is too far away, it is a complete chaos.
 ![scale - mouseX moves too much](/a1_process/scale-mouseX-much.png)
+When mouseX is too far away, it is a complete chaos.
 
-Weirder thing when I added in mouseY just for fun.
 ![scale - mouseY](/a1_process/scale-mouseY.png)
+Weirder thing when I added in mouseY just for fun.
 
 
 
