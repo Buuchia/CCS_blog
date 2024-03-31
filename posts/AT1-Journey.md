@@ -27,11 +27,11 @@ The artist employed effective complexity by generating iterations of simple circ
 - Shape drawn in the centre of the canvas.
 - Meditative/Hypnotizing feel.
 - Slow-motion approach of the shapes, or when they transform.
-- Random color of the petals or 
+- Random color of the petals or not.
 
 ### Aspects I would like to improve/change
 - Change the circles to flower shape.
-- Randomize color of the background in time with the flower transformation, instead of randomizing color of petals.
+- Randomize color of the background every time the page refreshes.
 
 ### The way my work in dialogue with Rafael Rozendaal's *return reverse* is in:
 The title *return reverse* and the mechanical aspect the geometric shapes of the website inspire me to think about a loop of being born, disappearing, and being born again, which leads me to deep thoughts about life and how the universe works, where everything begins, ends, and a new beginning ensues. 
@@ -51,21 +51,19 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 2. The hypnotizing effect is needed to evoke the feeling of meditation then gradually turns into somewhat trippy if the viewer maintains the gaze with it after a long time. 
 
 **Javascript Technique**
-- Flower stays in the center of the canvas.
-- Each flower shape has some transparency, so not solid fill.
-- Hypnotizing effect may be achieved with slow motion, when the flower layers transform, when they are bigger and approaching.
-- Rotating hue.
-- Blend mode.
-- for loop, since I need to make iterations of the flower layers.
-- Make a flower object in a class.
-- Some conditional statements.
-- Random with map function (for background).
-- Array of petals (?).
-- Vertex because I will need to draw the petals.
+- `vertex()`, `push()`, and `pop()` because I will need to draw the flower shape.
+- Flower stays in the center of the canvas, using `translate()`.
+- Each flower shape has some transparency, so not solid fill, using `lerpColor()`.
+- Hypnotizing effect may be achieved with slow motion, when the flower layers rotates using `rotate()`.
+- Mouse interaction for user to transform the size of flowers, using conditional statement `if-else`, `boolean logic`, `mouseIsPressed()`, `scale()`.
+- Custom function to randomize colours, using `random()`.
+- `blendMode()` so the colours transfer naturally.
+- `for` loop, since I need to make iterations of the flower layers.
+- Make a Flower `class`.
+- Array of flowers, fill colours of the flowers.
+- `resizeCanvas()` so that flowers always stay in the centre of canvas whenever canvas is resized.
 
-**Tutorials**
 
-[Patt Vira's Hyonotic Flowers](https://www.youtube.com/watch?v=o5t7PxRJSXk)
 
 ### Process
 
@@ -221,4 +219,6 @@ I guess that I should use the reverse method, but since I have not understood it
 
 ![wrong reverse 2](/a1_process/error-2.png)
 
+**Tutorials**
+[Patt Vira's Hyonotic Flowers](https://www.youtube.com/watch?v=o5t7PxRJSXk)
 
