@@ -5,7 +5,7 @@ snippet: My notes about concepts of creative coding
 disable_html_sanitization: true
 ---
 
-### Trigonometry
+### [Trigonometry](https://www.pattvira.com/creative-coding-math/v/trigonometry-and-polar-coordinates)
 Study of the relationship between sides and angles of a triangle.
 Focus on a right triangle: one 90 degree angle on the right and three sides. The angle opposite to the 90 degree angle is called theta.
 
@@ -22,5 +22,3 @@ In computer graphics, Y axis increases from top to bottom, unlike the traditiona
 
 ![Conversion formula](/concept_notes/convert.png)
 
-x = R * cos(theta)
-y = R * sin(theta)

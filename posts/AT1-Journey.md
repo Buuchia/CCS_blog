@@ -64,13 +64,24 @@ So I will communicate with Rafael Rozendaa's *return universe* through the motio
 - Array of flowers, fill colours of the flowers.
 - `resizeCanvas()` so that flowers always stay in the centre of canvas whenever canvas is resized.
 
-For this work, I aim to achieve the cute aesthetic with a flower with colorful layers that asking for attention from viewers, but it will drain their energy after a while. When they interact with the flowers, as if being more intimate with it either by pressing mouse on its territory (the canvas) or itself, they will see the more unsettling, not-for-easy-consumption nature behind its cute appearance. 
+For this work, I aim to achieve the cute aesthetic with a flower with colorful layers that asking for attention from viewers, but it will drain their energy after a while. When they interact with the flowers, as if being more intimate with it either by pressing mouse on its territory (the canvas) or itself, they will see the more unsettling, not-for-easy-consumption transformation behind its cute appearance. 
 
 Slightly adjusting the rotation direction of the flowers' layers and randomizing the hues of flowers to obtain the effective complexity is also another goal. They are the same flowers doing the same thing, but user will get different flowers each time.
 
 ### Process
 
-The process starts from trying to 
+1. I need to figure out how to draw a flower.
+
+2. I will transform one flower, rotation in this case.
+
+3. Once the single flower is ready, I will make a Flower class with some properties as a template for creating more flowers later.
+
+4. Add mouse interaction to increase the scale and rotation of flowers when user presses mouse.
+
+5. Figure out the fill colours for flowers, some transparency, not completely solid.
+
+6. Make random hue for background.
+
 
 `vertex()` function draws points, but alone it doesn't show anything on screen, so we need additional functions `beginShape()` and `endShape()`.
 
@@ -111,9 +122,9 @@ The shape is not a circle yet because the default angle mode is in radians, so I
 
 First and last point of the shape is not connected so I use `endShape(CLOSE)` to bridge them. 
 
-The shape is still not fully a circle because it needs more points, so change `pts = 100` makes the edge round.
+The shape is still not fully a circle because it needs more points, making the edge rounder.
 
-To make the flower, we don't want its radius to be 100 throughout the circle, so we add the flower's radius, declaring this variable `f.radius`, to the circle's radius `r`.
+To make the flower, I don't want its radius to be 100 throughout the circle, so I add the flower's radius, declaring this variable `f.radius`, to the circle's radius `r`.
 
 ```javascript
 x[i] = (r + f_radius) *cos(angle)
@@ -134,6 +145,8 @@ f_radius = 20 * cos(angle * 5) <br>
 The output is 5 times we get the values between -20 and 20.
 
 ![flower shape f_amp = 20; period = 5](/a1_process/flower-amp20-p5.png)
+
+
 
 ## Problems
 1. When I tried to make one flower rotates, instead of rotating in a 2-dimensional perspective, my flower rotates at a skew angle. Turned out I forgot to add the variable `rotate` in the equation of the y location.
