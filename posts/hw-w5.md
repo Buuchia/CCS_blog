@@ -66,7 +66,7 @@ disable_html_sanitization: true
       //representing the image in JPEG format
       //the resulting data URL is stored in the variable img_data.
       img_data = cnv.toDataURL ("image/jpeg")
-      
+
       //call add_glitch function
       add_glitch ()
    }
@@ -74,8 +74,11 @@ disable_html_sanitization: true
    //source of the image
    img.src = `/240405/pfp_glasses.jpg`
 
+//define function rand_int with a max parameter
+//introduce randomness and variation in the glitch effect.
    const rand_int = max => Math.floor (Math.random () * max)
 
+//introducing glitches into the image data
    const glitchify = (data, chunk_max, repeats) => {
       const chunk_size = rand_int (chunk_max / 4) * 4
       const i = rand_int (data.length - 24 - chunk_size) + 24
