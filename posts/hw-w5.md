@@ -17,7 +17,7 @@ disable_html_sanitization: true
 <script type="module">
 
 //assign to immutable variable cnv the newly created canvas element object in the document interface
-//
+//let the canvas width 
    const cnv = document.getElementById (`glitch_self_portrait`) 
    cnv.width = cnv.parentNode.scrollWidth
    cnv.height = cnv.width * 9 / 16
@@ -35,6 +35,9 @@ disable_html_sanitization: true
    img.onload = () => {
       cnv.height = cnv.width * (img.height / img.width)
       draw (img)
+      //toDataURL() is used here to convert the content of the canvas into a data URL 
+      //representing the image in JPEG format
+      //the resulting data URL is stored in the variable img_data.
       img_data = cnv.toDataURL ("image/jpeg")
       add_glitch ()
    }
