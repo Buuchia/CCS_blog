@@ -10,15 +10,21 @@ disable_html_sanitization: true
 ## Glitch
 
 ```javascript
+
+//create a canvas element with the id name "glitch_self_portrait" 
 <canvas id="glitch_self_portrait"></canvas>
 
 <script type="module">
 
-   const cnv = document.getElementById (`glitch_self_portrait`)
+//assign to immutable variable cnv the newly created canvas element object in the document interface
+//
+   const cnv = document.getElementById (`glitch_self_portrait`) 
    cnv.width = cnv.parentNode.scrollWidth
    cnv.height = cnv.width * 9 / 16
    cnv.style.backgroundColor = `deeppink`
 
+//calling the getContext() method on the newly created canvas object
+//return a CanvasRenderingContext2D object, which we interface with to draw to the canvas.
    const ctx = cnv.getContext (`2d`)
 
    let img_data
