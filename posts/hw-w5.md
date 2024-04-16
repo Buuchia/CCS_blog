@@ -90,8 +90,13 @@ disable_html_sanitization: true
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
    }
 
+//empty array to store glitched images
    const glitch_arr = []
 
+//The add_glitch function is defined 
+//which creates a new image object, sets its onload event, pushes it into the glitch_arr, 
+//and recursively calls itself until glitch_arr has 12 glitched images. 
+//Once the array is populated, it calls the draw_frame function.
    const add_glitch = () => {
       const i = new Image ()
       i.onload = () => {
@@ -102,9 +107,13 @@ disable_html_sanitization: true
       i.src = glitchify (img_data, 96, 6)
    }
 
+//Two variables is_glitching and glitch_i are initialized to control the glitch effect.
    let is_glitching = false
    let glitch_i = 0
 
+//Define draw_frame function, 
+//which alternates between drawing the original image and glitched images 
+//based on a probability.
    const draw_frame = () => {
       if (is_glitching) draw (glitch_arr[glitch_i])
       else draw (img)
@@ -114,7 +123,7 @@ disable_html_sanitization: true
          glitch_i = rand_int (glitch_arr.length)
          is_glitching = !is_glitching
       }
-
+// It uses requestAnimationFrame to continuously draw frames, creating an animation effect.
       requestAnimationFrame (draw_frame)
    }
 
