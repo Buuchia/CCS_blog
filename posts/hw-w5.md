@@ -78,17 +78,20 @@ disable_html_sanitization: true
 //that are removed from the image data during the glitching process. 
 //Math.floor() static method rounds down and returns the largest integer less than or equal to a given number.
 //Generating random integers for the chunk size allows the glitch effect to vary in intensity and size randomly.
+//random integer function is also used to control the number of repeats in the glitch effect in the glitchify function.
    const rand_int = max => Math.floor (Math.random () * max)
 
 //define glitchify function to introduce glitches into the image data
 //takes base64 encoded image data, a maximum chunk size, and the number of repeats as parameters. 
 //randomly removes chunks of data from the image data to simulate glitches.
+//Each time the function is called, it selects a random position within the image data to apply the glitch effect, making the glitches appear more natural and unpredictable.
    const glitchify = (data, chunk_max, repeats) => {
       const chunk_size = rand_int (chunk_max / 4) * 4
       const i = rand_int (data.length - 24 - chunk_size) + 24
       const front = data.slice (0, i)
       const back = data.slice (i + chunk_size, data.length)
       const result = front + back
+      //The glitchify function is recursive, and each recursive call decrements the number of repeats until it reaches zero. 
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
    }
 
