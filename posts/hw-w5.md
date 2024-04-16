@@ -1,13 +1,11 @@
 ---
-title: Concepts
+title: Week 5 Homework
 published_at: 2024-04-10
 snippet: Process of my homework for week 5
 disable_html_sanitization: true
 ---
 
-# WEEK 5
-
-## Glitch
+# Glitch
 
 ```javascript
 <canvas id="glitch_self_portrait"></canvas>
