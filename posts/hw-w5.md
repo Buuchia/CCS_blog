@@ -37,28 +37,34 @@ disable_html_sanitization: true
 //return a CanvasRenderingContext2D object, which we interface with to draw to the canvas.
    const ctx = cnv.getContext (`2d`)
 
-//declare variable
+//declare variable to store the base64 encoded image data
    let img_data
 
 //define function draw with an i parameter, i stands for image
 //whatever image is passed into i, refer to the CanvasRenderingContext2D, 
-//draw a image with (0,0) coordinates of top left corner of the source image
+//draw a image at the top left corner
 //using the canvas width and height
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
-   //The x-axis coordinate in the destination canvas at which to place the top-left corner of the source image.
-   //The y-axis coordinate in the destination canvas at which to place the top-left corner of the source image.
 
+//assign a new 
    const img = new Image ()
+
    //draw when image has loaded
    img.onload = () => {
+      //When the image is loaded, 
+      //resizes the canvas height to the aspect ratio of the image relative to the width of the canvas.
       cnv.height = cnv.width * (img.height / img.width)
+      //call function draw to draw the image onto the canvas
       draw (img)
       //toDataURL() is used here to convert the content of the canvas into a data URL 
       //representing the image in JPEG format
       //the resulting data URL is stored in the variable img_data.
       img_data = cnv.toDataURL ("image/jpeg")
+      //call add_glitch function
       add_glitch ()
    }
+
+   //source of the image
    img.src = `/240405/pfp_glasses.jpg`
 
    const rand_int = max => Math.floor (Math.random () * max)
