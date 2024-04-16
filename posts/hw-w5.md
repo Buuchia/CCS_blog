@@ -104,6 +104,7 @@ disable_html_sanitization: true
          if (glitch_arr.length < 12) add_glitch ()
          else draw_frame ()
       }
+      //source of the new glitch image will use the image data, chunk_max 96, repeats 6 times
       i.src = glitchify (img_data, 96, 6)
    }
 
@@ -115,7 +116,9 @@ disable_html_sanitization: true
 //which alternates between drawing the original image and glitched images 
 //based on a probability.
    const draw_frame = () => {
+      //if the image is not glitching, draw the glitch images and put them into the glitch_arr array
       if (is_glitching) draw (glitch_arr[glitch_i])
+       //if the image is glitching, draw the original image.
       else draw (img)
 
       const prob = is_glitching ? 0.05 : 0.02
