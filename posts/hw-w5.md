@@ -27,19 +27,29 @@ disable_html_sanitization: true
 //useful for responsive designs where the canvas needs to adapt to different screen sizes or layouts.
    cnv.width = cnv.parentNode.scrollWidth
 
-//
+//the canvas height maintains a 9:16 aspect ratio relative to the width of the canvas.
    cnv.height = cnv.width * 9 / 16
+
+//set background colour of the canvas to deep pink
    cnv.style.backgroundColor = `deeppink`
 
 //calling the getContext() method on the newly created canvas object
 //return a CanvasRenderingContext2D object, which we interface with to draw to the canvas.
    const ctx = cnv.getContext (`2d`)
 
+//declare variable
    let img_data
 
+//define function draw with an i parameter, i stands for image
+//whatever image is passed into i, refer to the CanvasRenderingContext2D, 
+//draw a image with (0,0) coordinates of top left corner of the source image
+//using the canvas width and height
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
+   //The x-axis coordinate in the destination canvas at which to place the top-left corner of the source image.
+   //The y-axis coordinate in the destination canvas at which to place the top-left corner of the source image.
 
    const img = new Image ()
+   //draw when image has loaded
    img.onload = () => {
       cnv.height = cnv.width * (img.height / img.width)
       draw (img)
