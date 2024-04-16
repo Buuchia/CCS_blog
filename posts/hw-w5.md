@@ -42,24 +42,31 @@ disable_html_sanitization: true
 
 //define function draw with an i parameter, i stands for image
 //whatever image is passed into i, refer to the CanvasRenderingContext2D, 
-//draw a image at the top left corner
+//draw the image at the top left corner
 //using the canvas width and height
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
 
-//assign a new 
+//creates a new instance of the Image object, 
+//which serves as a placeholder for an image and 
+//allows for asynchronous loading and manipulation of images in the browser environment.
    const img = new Image ()
 
-   //draw when image has loaded
+   //load an image from a URL specified by img.src. 
+   //The onload event handler executes a function when the image has finished loading. 
+   //This asynchronous loading mechanism allows performing tasks after the image has been successfully loaded.
    img.onload = () => {
-      //When the image is loaded, 
+   
       //resizes the canvas height to the aspect ratio of the image relative to the width of the canvas.
       cnv.height = cnv.width * (img.height / img.width)
-      //call function draw to draw the image onto the canvas
+
+      //call function draw to draw the image onto the canvas when image has loaded
       draw (img)
+
       //toDataURL() is used here to convert the content of the canvas into a data URL 
       //representing the image in JPEG format
       //the resulting data URL is stored in the variable img_data.
       img_data = cnv.toDataURL ("image/jpeg")
+      
       //call add_glitch function
       add_glitch ()
    }
