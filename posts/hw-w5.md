@@ -78,7 +78,9 @@ disable_html_sanitization: true
 //introduce randomness and variation in the glitch effect.
    const rand_int = max => Math.floor (Math.random () * max)
 
-//introducing glitches into the image data
+//define glitchify function to introduce glitches into the image data
+//takes base64 encoded image data, a maximum chunk size, and the number of repeats as parameters. 
+//randomly removes chunks of data from the image data to simulate glitches.
    const glitchify = (data, chunk_max, repeats) => {
       const chunk_size = rand_int (chunk_max / 4) * 4
       const i = rand_int (data.length - 24 - chunk_size) + 24
