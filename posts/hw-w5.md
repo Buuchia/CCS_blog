@@ -17,9 +17,17 @@ disable_html_sanitization: true
 <script type="module">
 
 //assign to immutable variable cnv the newly created canvas element object in the document interface
-//let the canvas width 
    const cnv = document.getElementById (`glitch_self_portrait`) 
+
+//retrieves the width of the parent element of the canvas
+// considering the entire width of its content
+// and assigns it to the width of the canvas. 
+//dynamically adjusts the width of the canvas to match the width of its parent element
+//ensuring that the canvas fills its container horizontally. 
+//useful for responsive designs where the canvas needs to adapt to different screen sizes or layouts.
    cnv.width = cnv.parentNode.scrollWidth
+
+//
    cnv.height = cnv.width * 9 / 16
    cnv.style.backgroundColor = `deeppink`
 
