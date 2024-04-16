@@ -5,7 +5,9 @@ snippet: Process of my homework for week 5
 disable_html_sanitization: true
 ---
 
-# Glitch
+# 1. Explanatory Comments 
+
+## Glitch
 
 ```javascript
 <canvas id="glitch_self_portrait"></canvas>
@@ -74,7 +76,7 @@ disable_html_sanitization: true
 </script>
 ```
 
-# Pixel Sort
+## Pixel Sort
 
 ```javascript
 <canvas id="pixel_sort"></canvas>
@@ -203,3 +205,13 @@ export class PixelSorter {
    }
 }
 ```
+
+# 2. Glitch Self-portrait
+
+Link to my design code: 
+
+# 3. Discussion
+
+Draw from this weeks' readings to discuss in a blog post:
+which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
+does glitch increase or decrease effective complexity, and why?
