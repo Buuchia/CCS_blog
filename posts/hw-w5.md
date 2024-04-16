@@ -74,10 +74,10 @@ disable_html_sanitization: true
    //source of the image
    img.src = `/240405/pfp_glasses.jpg`
 
-//define function rand_int with a max parameter
-//The function is used to determine the size of the chunks of data that are removed from the image data during the glitching process. 
-//Generating random integers for the chunk size allows the glitch effect to vary in intensity and size
-//introduce randomness and variation in the glitch effect.
+//define function rand_int with a max parameter to returns random variations of the largest rounded integer of data chunk size
+//that are removed from the image data during the glitching process. 
+//Math.floor() static method rounds down and returns the largest integer less than or equal to a given number.
+//Generating random integers for the chunk size allows the glitch effect to vary in intensity and size randomly.
    const rand_int = max => Math.floor (Math.random () * max)
 
 //define glitchify function to introduce glitches into the image data
