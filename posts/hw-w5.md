@@ -86,10 +86,16 @@ disable_html_sanitization: true
 //randomly removes chunks of data from the image data to simulate glitches.
 //Each time the function is called, it selects a random position within the image data to apply the glitch effect, making the glitches appear more natural and unpredictable.
    const glitchify = (data, chunk_max, repeats) => {
+      //determines the size of the chunk of data to be removed for the glitch effect.
+      //chunk_max is a parameter passed to the function, representing the maximum size of the chunk of data to be removed during glitching.
+      //rand_int(chunk_max / 4) generates a random integer between 0 and chunk_max / 4
+      //Dividing by 4 might be done to limit the maximum chunk size, ensuring the glitch effect doesn't remove too much data at once.
+      //Multiplying by 4 ensures that the chunk_size is a multiple of 4, which is often necessary for data manipulation operations, particularly when dealing with binary data or image data.
       const chunk_size = rand_int (chunk_max / 4) * 4
+      
       const i = rand_int (data.length - 24 - chunk_size) + 24
       //the front variable will be an array that contains extracted data from the original data array
-      //the front portion starts from the first index of the data array to i
+      //the front portion starts extraction from the first index of the data array up to i, but not including i
       const front = data.slice (0, i)
       //the back portion starts where i ends plus the chunk size to the end elements of the data array
       const back = data.slice (i + chunk_size, data.length)
