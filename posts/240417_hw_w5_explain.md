@@ -28,6 +28,7 @@ disable_html_sanitization: true
       add_glitch ()
    }
 
+//change path to my image here
    img.src = `/example_hw_5/IMG_7764.JPG`
 
    const rand_int = max => Math.floor (Math.random () * max)
@@ -95,7 +96,6 @@ disable_html_sanitization: true
       add_glitch ()
    }
    
-   //change the path to image
    img.src = `/240405/pfp_glasses.jpg`
 
    const rand_int = max => Math.floor (Math.random () * max)
