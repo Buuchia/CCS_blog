@@ -100,4 +100,4 @@ disable_html_sanitization: true
     }
 </script>
 
-Code from[here](https://c2js.org/examples.html?name=Delaunay).
+Code from[here](https://c2js.org/examples.html?name=Delaunay)
