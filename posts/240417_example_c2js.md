@@ -6,7 +6,7 @@ disable_html_sanitization: true
 ---
 <script src="/scripts/c2.min.js"></script>
 
-Code from [here](https://c2js.org/examples.html?name=Delaunay).
+<!-- Code from [here](https://c2js.org/examples.html?name=Delaunay).
 
 <canvas id="c2"/>
 
@@ -100,9 +100,9 @@ Code from [here](https://c2js.org/examples.html?name=Delaunay).
     let parent = renderer.canvas.parentElement;
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
     }
-</script>
+</script> -->
 
-<canvas id="c3"/>
+<canvas id="c2"/>
 
 Code from [here](https://c2js.org/examples.html?name=LimitedVoronoi4).
 
