@@ -8,6 +8,8 @@ disable_html_sanitization: true
 
 <canvas id="c2"/>
 
+//Created by Ren Yuan
+
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
 resize();
@@ -97,3 +99,5 @@ function resize() {
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
 }
 </script>
+
+Code from[here](https://c2js.org/examples.html?name=Delaunay).
