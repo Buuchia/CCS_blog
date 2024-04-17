@@ -89,8 +89,9 @@ disable_html_sanitization: true
       const chunk_size = rand_int (chunk_max / 4) * 4
       const i = rand_int (data.length - 24 - chunk_size) + 24
       //the front variable will be an array that contains extracted data from the original data array
-      //the data array extracts from the first index
+      //the front portion starts from the first index of the data array to i
       const front = data.slice (0, i)
+      //the back portion starts 
       const back = data.slice (i + chunk_size, data.length)
       const result = front + back
       //The glitchify function is recursive, and each recursive call decrements the number of repeats until it reaches zero. 
