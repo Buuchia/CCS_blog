@@ -78,35 +78,66 @@ disable_html_sanitization: true
       //leaving out a chunk
       const result = front + back
 
-      //
+      //ternary operator to return result if repeats == 0
+      //otherwise call itself again with repeats -1
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
    }
 
+//instantiate empty array for glitched images
    const glitch_arr = []
 
+//define function that adds a glitched image
+//to the glitch_arr array
    const add_glitch = () => {
+
+    //make a new image element
       const i = new Image ()
+
+      //define function that executes when image receives its data
       i.onload = () => {
+
+        //push the image into the glitch_arr array
          glitch_arr.push (i)
+
+         //call itself until there are 12 glitched images
          if (glitch_arr.length < 12) add_glitch ()
+
+         //once there are 12 images, start animating
          else draw_frame ()
       }
+
+      //give the new image some glitched image data
       i.src = glitchify (img_data, 96, 6)
    }
 
+//instantiate variable to keep track of glitch state
    let is_glitching = false
+
+   //keep track of which glitched image from the array wwe are using
    let glitch_i = 0
 
+//check to see if we are glitching
+//if so, draw the glitched image from the array
    const draw_frame = () => {
       if (is_glitching) draw (glitch_arr[glitch_i])
+
+      //otherwise draw the regular image
       else draw (img)
 
+//probability weightings for starting and stopping the glitch
       const prob = is_glitching ? 0.05 : 0.02
+
+      //if random value is less than probability
       if (Math.random () < prob) {
+
+//choose a random glitched image index
          glitch_i = rand_int (glitch_arr.length)
+
+         //flip the stage of is_glitching
          is_glitching = !is_glitching
       }
 
+//call the next animation frame
       requestAnimationFrame (draw_frame)
    }
 
