@@ -91,7 +91,7 @@ disable_html_sanitization: true
       //the front variable will be an array that contains extracted data from the original data array
       //the front portion starts from the first index of the data array to i
       const front = data.slice (0, i)
-      //the back portion starts 
+      //the back portion starts where i ends plus the chunk size to the end elements of the data array
       const back = data.slice (i + chunk_size, data.length)
       const result = front + back
       //The glitchify function is recursive, and each recursive call decrements the number of repeats until it reaches zero. 
