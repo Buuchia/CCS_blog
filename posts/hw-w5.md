@@ -467,6 +467,7 @@ export class PixelSorter {
       }
    }
 }
+
 ```
 
 # 2. Glitch Self-portrait
