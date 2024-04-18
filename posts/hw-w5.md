@@ -82,15 +82,18 @@ disable_html_sanitization: true
 
 <script type="module">
 
-   //assign to immutable variable cnv the newly created canvas element object in the document interface
+   //grab the canvas element with the specified id in the document
+   //assign it to the variable cnv
    const cnv = document.getElementById (`glitch_self_portrait`) 
 
    //retrieves the width of the parent element of the canvas
-   // considering the entire width of its content
-   // and assigns it to the width of the canvas. 
-   //dynamically adjusts the width of the canvas to match the width of its parent element
+   //considering the entire width of its content
+   //and assigns it to the width of the canvas. 
+   //dynamically adjusts the width of the canvas 
+   //to match the width of its parent element
    //ensuring that the canvas fills its container horizontally. 
-   //useful for responsive designs where the canvas needs to adapt to different screen sizes or layouts.
+   //useful for responsive designs where the canvas 
+   //needs to adapt to different screen sizes or layouts.
    cnv.width = cnv.parentNode.scrollWidth
 
    //the canvas height maintains a 9:16 aspect ratio relative to the width of the canvas.
@@ -113,13 +116,10 @@ disable_html_sanitization: true
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
 
    //creates a new instance of the Image object, 
-   //which serves as a placeholder for an image and 
-   //allows for asynchronous loading and manipulation of images in the browser environment.
    const img = new Image ()
 
    //load an image from a URL specified by img.src. 
    //The onload event handler executes a function when the image has finished loading. 
-   //This asynchronous loading mechanism allows performing tasks after the image has been successfully loaded.
    img.onload = () => {
    
       //resizes the canvas height to the aspect ratio of the image relative to the width of the canvas.
@@ -141,21 +141,23 @@ disable_html_sanitization: true
    //give file path to image element, when it's done loading, then the above img.onload() runs
    img.src = `/240405/pfp_glasses.jpg`
 
-   //define function rand_int with a max parameter to returns random variations of the largest rounded integer of data chunk size
+   //define function rand_int with a max parameter to returns random variations of 
+   //the largest rounded integer of data chunk size
    //that are removed from the image data during the glitching process. 
-   //Math.floor() static method rounds down and returns the largest integer less than or equal to a given number.
-   //Generating random integers for the chunk size allows the glitch effect to vary in intensity and size randomly.
-   //random integer function is also used to control the number of repeats in the glitch effect in the glitchify function.
    const rand_int = max => Math.floor (Math.random () * max)
 
    //define glitchify function to introduce glitches into the image data
    //takes base64 encoded image data, a maximum chunk size, and the number of repeats as parameters. 
    const glitchify = (data, chunk_max, repeats) => {
       //determines the size of the chunk of data to be removed for the glitch effect.
-      //chunk_max is a parameter passed to the function, representing the maximum size of the chunk of data to be removed during glitching.
+      //chunk_max is a parameter passed to the function, 
+      //representing the maximum size of the chunk of data to be removed during glitching.
       //rand_int (chunk_max / 4) generates a random position between 0 and chunk_max / 4
-      //Dividing by 4 might be done to limit the maximum chunk size, ensuring the glitch effect doesn't remove too much data at once.
-      //Multiplying by 4 ensures that the chunk_size is a multiple of 4, which is often necessary for data manipulation operations, particularly when dealing with binary data or image data.
+      //Dividing by 4 might be done to limit the maximum chunk size, 
+      //ensuring the glitch effect doesn't remove too much data at once.
+      //Multiplying by 4 ensures that the chunk_size is a multiple of 4, 
+      //which is often necessary for data manipulation operations, 
+      //particularly when dealing with binary data or image data.
       const chunk_size = rand_int (chunk_max / 4) * 4
       
       //random position in the data between 24 - chunk_size
@@ -165,7 +167,8 @@ disable_html_sanitization: true
    
       //the front portion grabs positions before the random position, but not including it
       const front = data.slice (0, i)
-      //the back portion starts where random position is plus the chunk size, to the end elements of the data string.
+      //the back portion starts where random position is plus the chunk size, 
+      //to the end elements of the data string.
       const back = data.slice (i + chunk_size, data.length)
       //the result puts the pieces together, excluding the gap of the chunk_size
       const result = front + back
@@ -199,7 +202,8 @@ disable_html_sanitization: true
       }
       
       //give the new image some glitched image data, chunk_max 96, repeats 6 times
-      //when the new glitched image is loaded, execute the i.onload() function above.
+      //when the new glitched image is loaded, 
+      //execute the i.onload() function above.
       i.src = glitchify (img_data, 96, 6)
    }
 
@@ -212,7 +216,8 @@ disable_html_sanitization: true
    //based on a probability.
    const draw_frame = () => {
 
-      //if the image is not glitching, draw the glitched images and put them into the glitch_arr array
+      //if the image is not glitching, 
+      //draw the glitched images and put them into the glitch_arr array
       if (is_glitching) draw (glitch_arr[glitch_i])
 
        //if the image is glitching, draw the original image.
