@@ -117,7 +117,7 @@ disable_html_sanitization: true
    }
 
 //change path to my image here
-//give file ath to image element, when it's done loading, then img.onload () runs
+//give file path to image element, when it's done loading, then img.onload () runs
    img.src = `/example_hw_5/IMG_7764.JPG`
 
 //definine a function that returns a random value between 0 - max, not including the max, no decimal
@@ -174,6 +174,7 @@ disable_html_sanitization: true
       }
 
       //give the new image some glitched image data
+      //when the new glitched image is loaded, execute the i.onload() function above.
       i.src = glitchify (img_data, 96, 6)
    }
 
