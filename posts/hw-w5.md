@@ -245,6 +245,8 @@ disable_html_sanitization: true
 
 ## Pixel Sort
 
+The code below creates a glitch effect on an image displayed on a canvas element by sorting pixel data based on brightness.
+
 ```html
 
 //create a canvas with an id called pixel_sort
@@ -276,7 +278,7 @@ disable_html_sanitization: true
    //create a new image element
    const img = new Image ()
 
-   //define function to execute upon loading the image
+   //define function to execute drawing the image upon loading the file
    img.onload = () => {
 
       //resize the canvas height to be
@@ -307,7 +309,11 @@ disable_html_sanitization: true
       //draw image onto the canvas context
       ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
 
-      //
+      //calculating a value (sig) that oscillates smoothly between -1 and 1 
+      //based on the current frame count, 
+      //with a frequency determined by the division by 500 
+      //(divided by larger number means slower).
+      //to modulate or control certain aspects of the animation or effect being created.
       let sig = Math.cos (frame_count * 2 * Math.PI / 500)
 
       //middle position: in the middle of the canvas.
@@ -316,19 +322,20 @@ disable_html_sanitization: true
          y: cnv.height / 2
       }
 
-      //dimension, no decimal
+      //glitch effect's dimension, no decimal
       const dim = {
          x: Math.floor ((sig + 3) * (cnv.width / 6)) + 1,
          y: Math.floor ((sig + 1) * (cnv.height / 6)) + 1
       }
 
-      //position, no decimal
+      //glitch effect's position, no decimal
       const pos = {
          x: Math.floor (mid.x - (dim.x / 2)),
          y: Math.floor (mid.y - (dim.y / 2))
       }
 
-      //call function sorter.glitch with two arguments: pos and dim
+      //call function sorter.glitch to apply the glitch effect to the image
+      //based on frame count
       sorter.glitch (pos, dim)
 
       //increase frame_count by 1 each frame
@@ -344,7 +351,8 @@ disable_html_sanitization: true
 ```javascript
 // pixel_sort.js
 
-//define function quicksort to
+//define quicksort function to sort an array of objects 
+//based on the value of their br property (brightness).
 //parameter a is an array
 const quicksort = a => {
 
@@ -382,13 +390,18 @@ const quicksort = a => {
    return sorted
 }
 
-//PixelSorter class
+//define class name
 export class PixelSorter {
+
+   //constructoraccepts a canvas 2D rendering context (ctx) as a parameter
+   //and stores it in the this.ctx variable.
    constructor (ctx) {
       this.ctx = ctx
    }
 
-   //define function init to 
+   //define function init to initialize the PixelSorter instance 
+   //by storing the canvas width and height
+   //and get image data from the context
    init () {
 
       //resize the width and height of the initial pixel sorter object 
@@ -396,15 +409,15 @@ export class PixelSorter {
       this.width = this.ctx.canvas.width
       this.height = this.ctx.canvas.height
 
-      //grabs the image data of the context to assign to the image data of the pixel sorter object
+      //retrieving the image data from the canvas.
       this.img_data = this.ctx.getImageData (0, 0, this.width, this.height).data
    }
 
-   //define glitch function 
+   //define glitch function applies a glitch effect to a specified region of the canvas
    //parameter position and dimension
    glitch (pos, dim) {
 
-      //define function find_i to find position of the pixel sorter
+      //define function find_i to find position of the glitch
       const find_i = c => ((c.y * this.ctx.canvas.width) + c.x) * 4 
 
       //nested for loop
@@ -445,16 +458,18 @@ export class PixelSorter {
             unsorted.push ({ r, g, b, a, br })
          })
 
+         //The pixel data is sorted based on brightness using the quicksort function.
          //reverese the order of the elements inside the unsorted array, 
          //when the array is passed into quicksort function
-         //so, sorted contains the array of reverse elements of the unsorted array.
+         //so, the pixel data is sorted based on br, a, b, g, r
          const sorted = quicksort (unsorted).reverse ()
 
          // //instantiating an empty array to variable rgba
          let rgba = []
 
-         //for each sorted position, 
-         //push its colour channels into the rgba array
+
+         //for each sorted pixel, 
+         //push its data into the rgba array
          sorted.forEach (e => {
             rgba.push (e.r)
             rgba.push (e.g)
@@ -470,12 +485,20 @@ export class PixelSorter {
          //
          const new_data = this.ctx.createImageData (1, dim.y)
          
+         //The sorted pixel data is then converted back to an RGBA array
          new_data.data.set (rgba)
 
+         //and put back onto the canvas at the appropriate position.
          this.ctx.putImageData (new_data, pos.x + x_off, pos.y)
       }
    }
 }
+
+//The glitch method applies a glitch effect to a specified region of the canvas:
+//It calculates the index of each pixel in the specified region and retrieves the pixel data.
+
+// 
+
 ```
 
 # 2. Glitch Self-portrait
