@@ -316,7 +316,7 @@ The code below creates a glitch effect on an image displayed on a canvas element
       //to modulate or control certain aspects of the animation or effect being created.
       let sig = Math.cos (frame_count * 2 * Math.PI / 500)
 
-      //midpoint coordinates of the canvas element
+      //mid object represents midpoint coordinates of the canvas element
       //to establish a reference point from which other calculations, 
       //such as determining the position of the glitch effect, can be based. 
       const mid = {
@@ -325,9 +325,27 @@ The code below creates a glitch effect on an image displayed on a canvas element
          y: cnv.height / 2 //y-coordinate
       }
 
-      //glitch effect's dimension, no decimal
+      //dim object 
+      //contains the width and height of the glitched region on the canvas.
+      //to control the size and shape of the glitch effect applied to the image.
       const dim = {
+
+         //calculating the width, no decimal number
+         //value of sig oscillates smoothly between -1 and 1 
+         //sig + 3 ensures that it's shifted to be in the range of 2 to 4, 
+         //effectively controlling the width of the glitched region.
+         //cnv.width / 6 determines the scaling factor for the width based on the canvas width. 
+         //adjusts the range of the glitch effect 
+         //to be approximately one-sixth of the canvas width.
+         //+ 1 guarantees that the glitched region will never be zero
+         //always have a minimum size of 1 pixel in each dimension.
          x: Math.floor ((sig + 3) * (cnv.width / 6)) + 1,
+
+         //calculating the height, no decimal number
+         //sig + 1 controls the height of the glitched region,
+         //cnv.height / 6 determines the scaling factor for the height based on the canvas height. 
+         //adjusts the range of the glitch effect 
+         //to be approximately one-sixth of the canvas height.
          y: Math.floor ((sig + 1) * (cnv.height / 6)) + 1
       }
 
