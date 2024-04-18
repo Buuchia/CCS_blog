@@ -103,7 +103,7 @@ disable_html_sanitization: true
    //define function to execute upon loading file
    img.onload = () => {
     //resizing the height of the canvas
-    //to be same aspect ratop as image
+    //to be same aspect ratio as image
       cnv.height = cnv.width * (img.height / img.width)
 
       //draw the image to canvas

@@ -246,54 +246,92 @@ disable_html_sanitization: true
 ## Pixel Sort
 
 ```html
+
+//create a canvas with an id called pixel_sort
 <canvas id="pixel_sort"></canvas>
 
 <script type="module">
+
+   //import to the PixelSorter hmtl document a script called pixel_sort.js
    import { PixelSorter } from "/scripts/pixel_sort.js"
 
+   //grab the canvas element with the specified id in the document
+   //and assign it to the variable cnv
    const cnv  = document.getElementById (`pixel_sort`)
+
+   //sizing the width and height of the canvas to be good size
    cnv.width  = cnv.parentNode.scrollWidth
    cnv.height = cnv.width * 9 / 16   
 
+   //getting canvas context
    const ctx = cnv.getContext (`2d`)
+
+   //create a new pixel sorter context element
+   //and assign it to the variable sorter
    const sorter = new PixelSorter (ctx)
 
+   //create a new image element
    const img = new Image ()
 
+   //define function to execute upon loading the image
    img.onload = () => {
+
+      //resize the canvas height to be
+      //the aspect ratio of the image in relation to the canvas width
       cnv.height = cnv.width * (img.height / img.width)
+
+      //draw the image onto the canvas
+      //at top left corner, using canvas width and canvas height
       ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
+
+      //call function sorter.init()
       sorter.init ()
+
+      //call function draw_frame()
       draw_frame ()
    }
 
+   //give file path to the source image element
+   //when this image is loaded, function img.onload() above will execute.
    img.src = `/240408/kornerpark.jpg`
 
+   //assign initial value of 0 to variable frame_count
    let frame_count = 0
+
+   //define function to draw image recursively
    const draw_frame = () => {
 
+      //draw image onto the canvas context
       ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
 
+      //
       let sig = Math.cos (frame_count * 2 * Math.PI / 500)
 
+      //middle position: in the middle of the canvas.
       const mid = {
          x: cnv.width / 2,
          y: cnv.height / 2
       }
 
+      //dimension, no decimal
       const dim = {
          x: Math.floor ((sig + 3) * (cnv.width / 6)) + 1,
          y: Math.floor ((sig + 1) * (cnv.height / 6)) + 1
       }
 
+      //position, no decimal
       const pos = {
          x: Math.floor (mid.x - (dim.x / 2)),
          y: Math.floor (mid.y - (dim.y / 2))
       }
 
+      //call function sorter.glitch with two arguments: pos and dim
       sorter.glitch (pos, dim)
 
+      //increase frame_count by 1 each frame
       frame_count++
+
+      //call the next animation frame
       requestAnimationFrame (draw_frame)
    }
 
@@ -303,13 +341,22 @@ disable_html_sanitization: true
 ```javascript
 // pixel_sort.js
 
+//define function quicksort to
+//parameter a is an array
 const quicksort = a => {
+
+   //if the a array is less than or equal 1, then return the a array
    if (a.length <= 1) return a
 
+   //assign first element with index 0 of the a array to variable pivot
    let pivot = a[0]
+
+   //instantiating an empty array for variable left and variable right
    let left = []
    let right = []
 
+   //for loop
+   //if the 
    for (let i = 1; i < a.length; i++) {
       if (a[i].br < pivot.br) left.push (a[i])
       else right.push (a[i])
@@ -320,43 +367,78 @@ const quicksort = a => {
    return sorted
 }
 
+//PixelSorter class
 export class PixelSorter {
    constructor (ctx) {
       this.ctx = ctx
    }
 
+   //define function init to 
    init () {
+
+      //resize the width and height of the initial pixel sorter object 
+      //to be the width and height of the canvas
       this.width = this.ctx.canvas.width
       this.height = this.ctx.canvas.height
+
+      //grabs the image data of the context to assign to the image data of the pixel sorter object
       this.img_data = this.ctx.getImageData (0, 0, this.width, this.height).data
    }
 
-
+   //define glitch function 
+   //parameter position and dimension
    glitch (pos, dim) {
+
+      //define function find_i to find position of the pixel sorter
       const find_i = c => ((c.y * this.ctx.canvas.width) + c.x) * 4 
 
+      //nested for loop
       for (let x_off = 0; x_off < dim.x; x_off++) {
-         const positions = []
 
+         //instantiating an empty array to variable positions
+         const positions = []
+         
+         //if y_pos of the pixel 
          for (let y_pos = pos.y; y_pos < pos.y + dim.y; y_pos++) {
+
+            //push the new positions into the positions array
             positions.push (find_i ({ x: pos.x + x_off, y: y_pos }))
          }
 
+         //instantiating an empty array to variable unsorted
          const unsorted = []
 
+         //for each position element in the positions arrray
          positions.forEach (p => {
+
+            //red channel
             const r = this.img_data[p]
+
+            //green channel
             const g = this.img_data[p + 1]
+
+            //blue channel
             const b = this.img_data[p + 2]
+
+            //alpha channel
             const a = this.img_data[p + 3]
+
+            //combining 3 channels r, g, b
             const br = r * g * b
+
+            //push the unsorted positions into the unsorted array
             unsorted.push ({ r, g, b, a, br })
          })
 
+         //reverese the order of the elements inside the unsorted array, 
+         //when the array is passed into quicksort function
+         //so, sorted contains the array of reverse elements of the unsorted array.
          const sorted = quicksort (unsorted).reverse ()
 
+         // //instantiating an empty array to variable rgba
          let rgba = []
 
+         //for each sorted position,
          sorted.forEach (e => {
             rgba.push (e.r)
             rgba.push (e.g)
@@ -364,6 +446,9 @@ export class PixelSorter {
             rgba.push (e.a)
          })
 
+         //create a new array element that turns the colours of the positions into 8-bit style.
+         //Uint8ClampedArray is an array of 8-bit unsigned integers clamped to 0–255. 
+         //The contents are initialized to 0.
          rgba = new Uint8ClampedArray (rgba)
 
          const new_data = this.ctx.createImageData (1, dim.y)
