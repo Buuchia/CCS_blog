@@ -59,6 +59,8 @@ disable_html_sanitization: true
    }
 
 </script>
+
+```javascript
 // pixel_sort.js
 
 const quicksort = a => {
@@ -132,6 +134,7 @@ export class PixelSorter {
       }
    }
 }
+```
 
 ```html
 <canvas id="pixel_sort"></canvas>
