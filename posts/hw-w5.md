@@ -316,10 +316,13 @@ The code below creates a glitch effect on an image displayed on a canvas element
       //to modulate or control certain aspects of the animation or effect being created.
       let sig = Math.cos (frame_count * 2 * Math.PI / 500)
 
-      //middle position: in the middle of the canvas.
+      //midpoint coordinates of the canvas element
+      //to establish a reference point from which other calculations, 
+      //such as determining the position of the glitch effect, can be based. 
       const mid = {
-         x: cnv.width / 2,
-         y: cnv.height / 2
+
+         x: cnv.width / 2, //x-coordinate
+         y: cnv.height / 2 //y-coordinate
       }
 
       //glitch effect's dimension, no decimal
