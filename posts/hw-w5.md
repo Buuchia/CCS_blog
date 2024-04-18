@@ -358,10 +358,22 @@ const quicksort = a => {
    //for loop
    //if the 
    for (let i = 1; i < a.length; i++) {
+
+      //
+      //push the element to the left array
       if (a[i].br < pivot.br) left.push (a[i])
+
+      //otherwise, push the element to the right array
       else right.push (a[i])
    }
 
+   //... means spread syntax
+   //mdn: 'allows an iterable, such as an array or string, 
+   //to be expanded in places where zero or more arguments (for function calls) 
+   //or elements (for array literals) are expected.'
+   //assign the sorted array to include all element 
+   //from the left array, first element of the pivot array, 
+   //and all elements of the right array
    const sorted = [ ...quicksort (left), pivot, ...quicksort (right) ]
 
    return sorted
@@ -438,7 +450,8 @@ export class PixelSorter {
          // //instantiating an empty array to variable rgba
          let rgba = []
 
-         //for each sorted position,
+         //for each sorted position, 
+         //push its colour channels into the rgba array
          sorted.forEach (e => {
             rgba.push (e.r)
             rgba.push (e.g)
@@ -451,6 +464,7 @@ export class PixelSorter {
          //The contents are initialized to 0.
          rgba = new Uint8ClampedArray (rgba)
 
+         //
          const new_data = this.ctx.createImageData (1, dim.y)
          
          new_data.data.set (rgba)
