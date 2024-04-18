@@ -175,6 +175,7 @@ disable_html_sanitization: true
 
       //give the new image some glitched image data
       //when the new glitched image is loaded, execute the i.onload() function above.
+      //img_data of the original image
       i.src = glitchify (img_data, 96, 6)
    }
 

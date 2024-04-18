@@ -82,39 +82,39 @@ disable_html_sanitization: true
 
 <script type="module">
 
-//assign to immutable variable cnv the newly created canvas element object in the document interface
+   //assign to immutable variable cnv the newly created canvas element object in the document interface
    const cnv = document.getElementById (`glitch_self_portrait`) 
 
-//retrieves the width of the parent element of the canvas
-// considering the entire width of its content
-// and assigns it to the width of the canvas. 
-//dynamically adjusts the width of the canvas to match the width of its parent element
-//ensuring that the canvas fills its container horizontally. 
-//useful for responsive designs where the canvas needs to adapt to different screen sizes or layouts.
+   //retrieves the width of the parent element of the canvas
+   // considering the entire width of its content
+   // and assigns it to the width of the canvas. 
+   //dynamically adjusts the width of the canvas to match the width of its parent element
+   //ensuring that the canvas fills its container horizontally. 
+   //useful for responsive designs where the canvas needs to adapt to different screen sizes or layouts.
    cnv.width = cnv.parentNode.scrollWidth
 
-//the canvas height maintains a 9:16 aspect ratio relative to the width of the canvas.
+   //the canvas height maintains a 9:16 aspect ratio relative to the width of the canvas.
    cnv.height = cnv.width * 9 / 16
 
-//set background colour of the canvas to deep pink
+   //set background colour of the canvas to deep pink
    cnv.style.backgroundColor = `deeppink`
 
-//calling the getContext() method on the newly created canvas object
-//return a CanvasRenderingContext2D object, which we interface with to draw to the canvas.
+   //calling the getContext() method on the newly created canvas object
+   //return a CanvasRenderingContext2D object, which we interface with to draw to the canvas.
    const ctx = cnv.getContext (`2d`)
 
-//declare variable to store the base64 encoded image data
+   //declare variable to store the base64 encoded image data
    let img_data
 
-//define function draw with an i parameter, i stands for image
-//whatever image is passed into i, refer to the CanvasRenderingContext2D, 
-//draw the image at the top left corner
-//using the canvas width and height
+   //define function draw with an i parameter, i stands for image
+   //whatever image is passed into i, refer to the CanvasRenderingContext2D, 
+   //draw the image at the top left corner
+   //using the canvas width and height
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
 
-//creates a new instance of the Image object, 
-//which serves as a placeholder for an image and 
-//allows for asynchronous loading and manipulation of images in the browser environment.
+   //creates a new instance of the Image object, 
+   //which serves as a placeholder for an image and 
+   //allows for asynchronous loading and manipulation of images in the browser environment.
    const img = new Image ()
 
    //load an image from a URL specified by img.src. 
@@ -141,15 +141,15 @@ disable_html_sanitization: true
    //give file path to image element, when it's done loading, then the above img.onload() runs
    img.src = `/240405/pfp_glasses.jpg`
 
-//define function rand_int with a max parameter to returns random variations of the largest rounded integer of data chunk size
-//that are removed from the image data during the glitching process. 
-//Math.floor() static method rounds down and returns the largest integer less than or equal to a given number.
-//Generating random integers for the chunk size allows the glitch effect to vary in intensity and size randomly.
-//random integer function is also used to control the number of repeats in the glitch effect in the glitchify function.
+   //define function rand_int with a max parameter to returns random variations of the largest rounded integer of data chunk size
+   //that are removed from the image data during the glitching process. 
+   //Math.floor() static method rounds down and returns the largest integer less than or equal to a given number.
+   //Generating random integers for the chunk size allows the glitch effect to vary in intensity and size randomly.
+   //random integer function is also used to control the number of repeats in the glitch effect in the glitchify function.
    const rand_int = max => Math.floor (Math.random () * max)
 
-//define glitchify function to introduce glitches into the image data
-//takes base64 encoded image data, a maximum chunk size, and the number of repeats as parameters. 
+   //define glitchify function to introduce glitches into the image data
+   //takes base64 encoded image data, a maximum chunk size, and the number of repeats as parameters. 
    const glitchify = (data, chunk_max, repeats) => {
       //determines the size of the chunk of data to be removed for the glitch effect.
       //chunk_max is a parameter passed to the function, representing the maximum size of the chunk of data to be removed during glitching.
@@ -175,12 +175,11 @@ disable_html_sanitization: true
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
    }
 
-//empty array to store glitched images
+   //empty array to store glitched images
    const glitch_arr = []
 
-//define function that adds a glitched image
-//to the glitch_arr array 
-
+   //define function that adds a glitched image
+   //to the glitch_arr array 
    const add_glitch = () => {
 
       //creates a new image object
@@ -204,13 +203,13 @@ disable_html_sanitization: true
       i.src = glitchify (img_data, 96, 6)
    }
 
-//Two variables is_glitching and glitch_i are initialized to control the glitch effect.
+   //Two variables is_glitching and glitch_i are initialized to control the glitch effect.
    let is_glitching = false
    let glitch_i = 0
 
-//Define draw_frame function, 
-//which alternates between drawing the original image and glitched images 
-//based on a probability.
+   //Define draw_frame function, 
+   //which alternates between drawing the original image and glitched images 
+   //based on a probability.
    const draw_frame = () => {
 
       //if the image is not glitching, draw the glitched images and put them into the glitch_arr array
@@ -219,12 +218,20 @@ disable_html_sanitization: true
        //if the image is glitching, draw the original image.
       else draw (img)
 
+   //probability weightings for starting and stopping the glitch
       const prob = is_glitching ? 0.05 : 0.02
+
+      //if random value is less than probability
       if (Math.random () < prob) {
+
+         //choose a random glitched image index
          glitch_i = rand_int (glitch_arr.length)
+
+         //flip the stage of is_glitching
          is_glitching = !is_glitching
       }
-// It uses requestAnimationFrame to continuously draw frames, creating an animation effect.
+
+      // call the next animation frame
       requestAnimationFrame (draw_frame)
    }
 
