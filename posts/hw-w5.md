@@ -1,7 +1,7 @@
 ---
 title: Week 5 Homework - Glitch
 published_at: 2024-04-10
-snippet: Process of my homework for week 5
+snippet: Code comments for Glitch and Pixel Sort and Glitch Self-portrait
 disable_html_sanitization: true
 ---
 
