@@ -252,15 +252,18 @@ disable_html_sanitization: true
 
 <script type="module">
 
-   //import to the PixelSorter hmtl document a script called pixel_sort.js
+   //import the PixelSorter class 
+   //from a JavaScript file located at "/scripts/pixel_sort.js".
    import { PixelSorter } from "/scripts/pixel_sort.js"
 
    //grab the canvas element with the specified id in the document
    //and assign it to the variable cnv
    const cnv  = document.getElementById (`pixel_sort`)
 
-   //sizing the width and height of the canvas to be good size
+   //Sizing the canvas width to the width of its parent element
    cnv.width  = cnv.parentNode.scrollWidth
+
+   //the canvas height is adjusted to maintain a 16:9 aspect ratio.
    cnv.height = cnv.width * 9 / 16   
 
    //getting canvas context
@@ -284,10 +287,10 @@ disable_html_sanitization: true
       //at top left corner, using canvas width and canvas height
       ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
 
-      //call function sorter.init()
+      //call function sorter.init() to initialize the PixelSorter instance.
       sorter.init ()
 
-      //call function draw_frame()
+      //call function draw_frame() to continuously draw frames on the canvas.
       draw_frame ()
    }
 
@@ -435,7 +438,7 @@ export class PixelSorter {
             //alpha channel
             const a = this.img_data[p + 3]
 
-            //combining 3 channels r, g, b
+            //brightness
             const br = r * g * b
 
             //push the unsorted positions into the unsorted array
