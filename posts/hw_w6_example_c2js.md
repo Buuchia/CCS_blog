@@ -102,9 +102,7 @@ disable_html_sanitization: true
     }
 </script> -->
 
-<canvas id="c2"/>
-
-Code from [here](https://c2js.org/examples.html?name=LimitedVoronoi4).
+<canvas id="c2">
 
 Created by Ren Yuan
 
@@ -185,3 +183,6 @@ Created by Ren Yuan
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
     }
 </script>
+
+
+<canvas/>
