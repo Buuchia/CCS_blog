@@ -6,9 +6,11 @@ disable_html_sanitization: true
 ---
 <!-- <script src="/scripts/threejs/three.module.min.js"></script> -->
 
-<canvas id="threejs"/>
+<div id="three_container"></div>
 
-<script>
+<!-- <canvas id="threejs"/> -->
+
+<script id="three-script" type="module">
 import * as THREE from '/scripts/threejs/three.cjs'
 import {
   OrbitControls
@@ -24,6 +26,11 @@ import {
 import {
   CSG
 } from '/scripts/threejs/csg.js'
+
+//from lecture's code
+const = div = document.getElementById ("three_container")
+const width = div.parentNode.scrollWidth
+const height = width * 9 / 16
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
