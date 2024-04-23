@@ -17,7 +17,7 @@
 
 import {
 	ExtrudeGeometry
-} from '/scripts/threejs/three.js';
+} from '/scripts/threejs/three.module.js';
 
 class TextGeometry extends ExtrudeGeometry {
 

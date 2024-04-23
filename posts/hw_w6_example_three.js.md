@@ -9,10 +9,10 @@ disable_html_sanitization: true
 <canvas id="threejs"/>
 
 <script>
-import * cripts/threejsas THREE from '/scripts/threejs/three.module.js'
+import * as THREE from '/scripts/threejs/three.module.js'
 import {
   OrbitControls
-} from '/s/OrbitControls.js'
+} from '/scripts/threejs/OrbitControls.js'
 import Stats from '/scripts/threejs/stats.module.js'
 import {
   Font,
@@ -23,7 +23,7 @@ import {
 } from '/scripts/threejs/TextGeometry.js'
 import {
   CSG
-} from 'csg.js'
+} from '/scripts/threejs/csg.js'
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
