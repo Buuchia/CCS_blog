@@ -17,7 +17,7 @@
  * - support for three r141
  * - updated for three r150
  */
-import * as THREE from '/scripts/threejs/three.js';
+import * as THREE from '/scripts/threejs/Three.js';
 // # class CSG
 // Holds a binary space partition tree representing a 3D solid. Two solids can
 // be combined using the `union()`, `subtract()`, and `intersect()` methods.

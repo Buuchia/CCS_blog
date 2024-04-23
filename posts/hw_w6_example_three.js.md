@@ -4,14 +4,13 @@ published_at: 2024-04-17
 snippet: three.js example - Hole Text
 disable_html_sanitization: true
 ---
-<!-- <script src="/scripts/threejs/three.module.min.js"></script> -->
 
 <div id="three_container"></div>
 
 <!-- <canvas id="threejs"/> -->
 
 <script id="three-script" type="module">
-import * as THREE from '/scripts/threejs/three.cjs'
+import * as THREE from '/scripts/threejs/Three.js'
 import {
   OrbitControls
 } from '/scripts/threejs/OrbitControls.js'
