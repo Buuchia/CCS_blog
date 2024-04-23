@@ -530,10 +530,6 @@ I use lecture's glitch template but change the source image file path to my own 
 
 # 3. Discussion
 
-Draw from this weeks' readings to discuss in a blog post:
-which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
-does glitch increase or decrease effective complexity, and why?
-
 Referring to Ngai's aesthetic category, my self-portrait and the glitch style generally fit into the zany category, because the results have a quality of being hot and bothered. The aesthetic also disturbs the viewer's interaction with the artwork and this kind of experience came from the artist's 'affective labour'. Thus, the glitch effect is closely related to production, a key characteristic of Ngai's zany aesthetic.
 
 Glitch decreases the effective complexity, since it pushes randomness out of balance in relation to elements of coherence. For instance, the glitch effect created too much distortion to my self portrait, almost the lower half chunk of its are blacked out.
