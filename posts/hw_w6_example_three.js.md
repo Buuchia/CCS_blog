@@ -10,7 +10,7 @@ disable_html_sanitization: true
 <!-- <canvas id="threejs"/> -->
 
 <script id="three-script" type="module">
-import * as THREE from '/scripts/threejs/Three.js'
+import * as THREE from '/scripts/threejs/three.js'
 import {
   OrbitControls
 } from '/scripts/threejs/OrbitControls.js'
