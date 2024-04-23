@@ -503,6 +503,8 @@ export class PixelSorter {
          if (glitch_arr.length < 12) add_glitch ()
          else draw_frame ()
       }
+
+      //set max chunk size 60, repeats 10 times
       i.src = glitchify (img_data, 60, 10)
    }
 
@@ -524,8 +526,16 @@ export class PixelSorter {
 
 </script>
 
+I use lecture's glitch template but change the source image file path to my own image, reduce the max chunk size to 60 and set a repeat of 10 times.
+
 # 3. Discussion
 
 Draw from this weeks' readings to discuss in a blog post:
 which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
 does glitch increase or decrease effective complexity, and why?
+
+Referring to Ngai's aesthetic category, my self-portrait and the glitch style generally fit into the zany category, because the results have a quality of being hot and bothered. The aesthetic also disturbs the viewer's interaction with the artwork and this kind of experience came from the artist's 'affective labour'. Thus, the glitch effect is closely related to production, a key characteristic of Ngai's zany aesthetic.
+
+Glitch decreases the effective complexity, since it pushes randomness out of balance in relation to elements of coherence. For instance, the glitch effect created too much distortion to my self portrait, almost the lower half chunk of its are blacked out.
+
+![Glitch decreases effective complexity](/example_hw_5/glitch_decrease_EF.png)
