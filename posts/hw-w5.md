@@ -503,7 +503,7 @@ export class PixelSorter {
          if (glitch_arr.length < 12) add_glitch ()
          else draw_frame ()
       }
-      i.src = glitchify (img_data, 96, 6)
+      i.src = glitchify (img_data, 60, 10)
    }
 
    let is_glitching = false
@@ -523,8 +523,6 @@ export class PixelSorter {
    }
 
 </script>
-
-Link to my design code: 
 
 # 3. Discussion
 
