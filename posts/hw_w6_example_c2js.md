@@ -102,9 +102,9 @@ disable_html_sanitization: true
     }
 </script> -->
 
-<canvas id="c2">
+<canvas id="c2"/>
 
-Created by Ren Yuan
+//Created by Ren Yuan
 
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
@@ -183,6 +183,3 @@ Created by Ren Yuan
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
     }
 </script>
-
-
-<canvas/>
