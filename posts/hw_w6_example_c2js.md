@@ -1,7 +1,7 @@
 ---
 title: Example c2.js
 published_at: 2024-04-17
-snippet: c2.js example
+snippet: c2.js example - LimitedVoronoi4
 disable_html_sanitization: true
 ---
 <script src="/scripts/c2.min.js"></script>
@@ -106,7 +106,7 @@ disable_html_sanitization: true
 
 Code from [here](https://c2js.org/examples.html?name=LimitedVoronoi4).
 
-//Created by Ren Yuan
+Created by Ren Yuan
 
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
