@@ -9,21 +9,21 @@ disable_html_sanitization: true
 <canvas id="threejs"/>
 
 <script>
-import * as THREE from '/scripts/threejs/three.module.js'
+import * cripts/threejsas THREE from '/scripts/threejs/three.module.js'
 import {
   OrbitControls
-} from '/scripts/three.cjs/OrbitControls'
-import Stats from 'three/examples/jsm/libs/stats.module'
+} from '/s/OrbitControls.js'
+import Stats from '/scripts/threejs/stats.module.js'
 import {
   Font,
   FontLoader
-} from 'three/examples/jsm/loaders/FontLoader'
+} from '/scripts/threejs/FontLoader.js'
 import {
   TextGeometry
-} from 'three/examples/jsm/geometries/TextGeometry'
+} from '/scripts/threejs/TextGeometry.js'
 import {
   CSG
-} from 'csg'
+} from 'csg.js'
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
