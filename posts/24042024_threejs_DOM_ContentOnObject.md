@@ -1,11 +1,13 @@
 ---
 title: Week 7 Homework 
-published_at: 2024-04-17
+published_at: 2024-04-24
 snippet: Threejs example - DOM-contentOnObject
 disable_html_sanitization: true
 ---
 
 <div id="three_container"></div>
+
+<canvas></canvas>
 
 <script type="module">
 import * as THREE from "/scripts/threejs/three.js";
