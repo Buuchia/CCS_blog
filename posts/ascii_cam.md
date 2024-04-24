@@ -69,6 +69,7 @@ disable_html_sanitization: true
 
       let ascii_img = ``
 
+//skipping each second line because characters are taller than wider
       for (let y = 0; y < cnv.height; y += 2) {
          for (let x = 0; x < cnv.width; x++) {
 
@@ -82,14 +83,22 @@ disable_html_sanitization: true
 
             //calculate brightness, 255x255x255 = 16581375, never return value of 1
             const br = (r * g * b / 16581376) ** 0.1
+
+            //use brightness to select character
             const char_i = Math.floor (br * chars.length)
+
+            //add character to ascii string
             ascii_img += chars[char_i]
          }
+
+         //new line, like pressing enter
          ascii_img += `\n`
       }
 
+      //add ascii string to innerText of div
       div.innerText = ascii_img
 
+      
       requestAnimationFrame (draw_frame)
    }
 
