@@ -27,16 +27,17 @@ import {
 } from '/scripts/threejs/csg.js'
 
 //from lecture's code
-const = div = document.getElementById ("three_container")
-const width = div.parentNode.scrollWidth
-const height = width * 9 / 16
+const div = document.getElementById ("three_container")
+const w = div.parentNode.scrollWidth
+const h = w * 9 / 16
 
 const scene = new THREE.Scene()
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
+const camera = new THREE.PerspectiveCamera(75, 9 / 16, 0.1, 1000)
 camera.position.set(3, 4, 5)
 const renderer = new THREE.WebGLRenderer()
-renderer.setSize(window.innerWidth, window.innerHeight)
-document.body.appendChild(renderer.domElement)
+renderer.setSize(w, h)
+// document.body.appendChild(renderer.domElement)
+div.appendChild(renderer.domElement)
 
 const controls = new OrbitControls(camera, renderer.domElement)
 controls.enableDamping = true

@@ -102,7 +102,7 @@ disable_html_sanitization: true
     }
 </script> -->
 
-<canvas id="c2"/>
+<canvas id="c2"></canvas>
 
 //Created by Ren Yuan
 
