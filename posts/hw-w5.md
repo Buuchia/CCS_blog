@@ -179,6 +179,8 @@ disable_html_sanitization: true
 
 ## Pixel Sort
 
+The glitch method applies a glitch effect to a specified region of the canvas, which calculates the index of each pixel in the specified region and retrieves the pixel data.
+
 The code below creates a glitch effect on an image displayed on a canvas element by sorting pixel data based on brightness.
 
 ```html
@@ -449,10 +451,6 @@ export class PixelSorter {
    }
 }
 
-//The glitch method applies a glitch effect to a specified region of the canvas:
-//It calculates the index of each pixel in the specified region and retrieves the pixel data.
-
-// 
 
 ```
 
