@@ -437,13 +437,13 @@ export class PixelSorter {
          //The contents are initialized to 0.
          rgba = new Uint8ClampedArray (rgba)
 
-         //
+         //turning the rgba array into the 8-bit format and assign to the new_data variable
          const new_data = this.ctx.createImageData (1, dim.y)
          
-         //The sorted pixel data is then converted back to an RGBA array
+         //set the new data format into the data
          new_data.data.set (rgba)
 
-         //and put back onto the canvas at the appropriate position.
+         //put the new data back onto the canvas context
          this.ctx.putImageData (new_data, pos.x + x_off, pos.y)
       }
    }
