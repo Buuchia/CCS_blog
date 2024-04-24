@@ -210,7 +210,7 @@ const w = div.parentNode.scrollWidth
 const h = w * 9 / 16
 
 let scene = new THREE.Scene();
-scene.background = new THREE.Color("maroon");
+scene.background = new THREE.Color("hotpink");
 let camera = new THREE.PerspectiveCamera(60, 9 / 16, 1, 1000);
 camera.position.set(0, 5, 10);
 let renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -452,11 +452,11 @@ const w = div.parentNode.scrollWidth
 const h = w * 9 / 16
 
 let scene = new THREE.Scene();
-scene.background = new THREE.Color("maroon");
+scene.background = new THREE.Color("hotpink");
 let camera = new THREE.PerspectiveCamera(60, 9 / 16, 1, 1000);
 camera.position.set(0, 5, 10);
 let renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setSize(w, h);
+renderer.setSize(w, h);g
 div.appendChild(renderer.domElement); //div is the html element for structure
 
 
