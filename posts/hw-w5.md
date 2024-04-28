@@ -530,6 +530,6 @@ I use lecture's glitch template but change the source image file path to my own 
 
 Referring to Ngai's aesthetic category, my self-portrait and the glitch style generally fit into the zany category, because the results have a quality of being hot and bothered. The aesthetic also critically disturbs the viewer's interaction with the artwork and this kind of experience came from the artist's 'affective labour', involving processes of manipulation, trials and errors, and re-formation. Thus, the glitch effect is closely related to production, a key characteristic of Ngai's zany aesthetic.
 
-Glitch decreases the effective complexity, since it pushes re-dundancy out of balance in relation to elements of non-randomness. For instance, the glitch effect obscures my self portrait with repetitive and abstract patterns, besides the glitch effect by nature is unstable and in some works, requires accidental discovery.
+Glitch decreases the effective complexity, since it pushes re-dundancy out of balance in relation to elements of non-randomness. For instance, the glitch effect obscures my self portrait with repetitive and abstract patterns, challenging the viewer receiving the flow of information. Besides the glitch effect by nature is unstable and in some works, requires ambiguity and accidental discovery.
 
 ![Glitch decreases effective complexity](/example_hw_5/glitch_decrease_EF.png)
