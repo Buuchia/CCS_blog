@@ -1,5 +1,5 @@
 ---
-title: Week 7 Homework 
+title: Week 7 in-class Three.js example
 published_at: 2024-04-24
 snippet: Threejs example - DOM-contentOnObject
 disable_html_sanitization: true
