@@ -528,8 +528,15 @@ I use lecture's glitch template but change the source image file path to my own 
 
 # 3. Discussion
 
-Referring to Ngai's aesthetic category, my self-portrait and the glitch style generally fit into the zany category, because the results have a quality of being hot and bothered. The aesthetic also critically disturbs the viewer's interaction with the artwork and this kind of experience came from the artist's 'affective labour', involving processes of manipulation, trials and errors, and re-formation. Thus, the glitch effect is closely related to production, a key characteristic of Ngai's zany aesthetic.
+Referring to Ngai's aesthetic category, my self-portrait and the glitch style generally fit into the zany category, because the results have a quality of being hot and bothered, inducing chaos that . The aesthetic also critically disturbs the viewer's interaction with the artwork and this kind of experience came from the artist's 'affective labour', involving processes of manipulation, trials and errors, and re-formation. Thus, the glitch effect is closely related to production, a key characteristic of Ngai's zany aesthetic.
 
-Glitch decreases the effective complexity, since it pushes re-dundancy out of balance in relation to elements of non-randomness. For instance, the glitch effect obscures my self portrait with repetitive and abstract patterns, challenging the viewer receiving the flow of information. Besides the glitch effect by nature is unstable and in some works, requires ambiguity and accidental discovery.
+I don't lean 100% on any side because depending on the context, glitch can decrease or increase effective complexity.
+
+Glitch decreases the effective complexity, since it pushes re-dundancy out of balance in relation to elements of non-randomness. For instance, the redundancy of the glitch obscures my self portrait, challenging the viewer receiving the flow of information to interpret new meanings; yet the repetition of the effect may be predictable and reduces the complexitty. 
 
 ![Glitch decreases effective complexity](/example_hw_5/glitch_decrease_EF.png)
+
+On the other hand, glitch increase effective complexity, because it requires a certain knowledge of the artist's technical skill and understanding of the machines to disfigure the data. For example, among Ant Scott's Glitch series's artworks,'some of them are ‘found’ glitch artifacts', some are created by the artist using 'computer crashes, software errors, hacked games, and megabytes of raw data turned into colored pixels'. This adds a layer of randomness but still keeps the coherence, which is the glitch nature.
+
+
+
