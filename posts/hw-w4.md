@@ -51,7 +51,7 @@ radsToDegrees = rad => {
 ctx.lineWidth = 10;
 ctx.lineCap = 'round'
 
-// setting shadow and blur effect 
+//setting shadow and blur effect 
 ctx.shadowColor = 'rgba(0,0,0,0.6)'
 ctx.shadowOffsetX = 10
 ctx.shadowOffsetY = 5
@@ -94,34 +94,38 @@ drawBranch = level => {
 
    //ending coordinates of the line
    ctx.lineTo(size, 0);
+
    ctx.stroke()
    
    //for loop to make 2 more segments on each branch below
    for (let i = 0; i < branches; i++){
       //to make each branch to split into 2 small segments
-   //first segment
-   //add save and restore here so that the following transform 
-   //only affect the drawBranch(level+1)
-   ctx.save()
-   //translates rotation's centre point along the branch
-   //place next segment from x position of its parent branch
-   //size - (size/branch) * 1 so that the child branch grows
-   //from the end point of of its parent branch 
-   ctx.translate(size - (size / branches) * i , 0) 
-   ctx.rotate(spread)
-   ctx.scale(scale, scale)
-   drawBranch(level + 1)
-   ctx.restore();
+      //first segment
+      //add save and restore here so that the following transform 
+      //only affect the drawBranch(level+1)
+      ctx.save()
 
-   //second segment
-   ctx.save()
-   ctx.translate(size - (size / branches) * i, 0) 
+      //translates rotation's centre point along the branch
+      //place next segment from x position of its parent branch
+      //size - (size/branch) * 1 so that the child branch grows
+      //from the end point of of its parent branch 
+      ctx.translate(size - (size / branches) * i , 0) 
 
-   //negative so that the segment is on the other side of parent branch
-   ctx.rotate(-spread)
-   ctx.scale(scale, scale)
-   drawBranch(level + 1)
-   ctx.restore()
+      ctx.rotate(spread)
+      ctx.scale(scale, scale)
+      drawBranch(level + 1)
+      ctx.restore();
+
+      //second segment
+      ctx.save()
+      ctx.translate(size - (size / branches) * i, 0) 
+
+      //negative so that the segment is on the other side of parent branch
+      ctx.rotate(-spread)
+
+      ctx.scale(scale, scale)
+      drawBranch(level + 1)
+      ctx.restore()
 
    }
 
@@ -151,6 +155,7 @@ drawFractal = () => {
 
 //call the function
 drawFractal()
+
 ```
 
 **Problems**
@@ -163,9 +168,11 @@ Also, more branches creating more complicated pattern, yet the browser takes lon
 
 I tried adjusting some values to see how far this fractal can be more chaotic. Through trials and errors, this may be used to increase chaos.
 
-***Examples of what I think may work:**
+**Examples of what I think may work:**
 
 1. Example 1
+
+![chaotic fractal 1](/hw_w4/fractal_chaotic.png)
 
 ```html
 
@@ -178,11 +185,9 @@ ctx.stroke()
 
 ```
 
-[chaotic fractal 1](/hw_w4/fractal_chaotic.png)
-
 2. Example 2
 
-[chaotic fractal 2](/hw_w4/fractal_chaotic_2.png)
+![chaotic fractal 2](/hw_w4/fractal_chaotic_2.png)
 
 ```html
 
@@ -193,7 +198,7 @@ ctx.lineTo(-size, 0);
 
 3. Example 3
 
-[chaotic fractal 3](/hw_w4/fractal_chaotic_3.png)
+![chaotic fractal 3](/hw_w4/fractal_chaotic_3.png)
 
 ```html
 
@@ -202,9 +207,9 @@ ctx.lineTo(radsToDegrees(Math.PI / 4), 0);
 
 ```
 
-4. Example 4: somehow I like that the shadow moves more visibly here
+4. Example 4: somehow I like that the shadow moves more visibly here.
 
-[chaotic fractal 4](/hw_w4/fractal_chaotic_4.png)
+![chaotic fractal 4](/hw_w4/fractal_chaotic_4.png)
 
 ```html
 
@@ -216,9 +221,9 @@ ctx.rotate(radsToDegrees(Math.PI / 2), radsToDegrees(Math.PI / 2))
 
 ```
 
-5. Example 5: more branches takes longer time to load, but the shadow becoming darker here kinda works.
+5. Example 5: more complex shape butmore branches takes longer time to load.
 
-[chaotic fractal 5](/hw_w4/fractal_chaotic_5.png)
+![chaotic fractal 5](/hw_w4/fractal_chaotic_5.png)
 
 ```html
 
