@@ -73,7 +73,7 @@ let maxLevel = 3
 //determines the scale of the smaller branches
 let scale = 0.5 //so next branch is half size of its parent branch
 
-//the angle between the child branche and the parent branch
+//the angle between the child branch and the parent branch
 let spread = radsToDegrees(Math.PI / 4) // 45 degrees
 
 //number of children branch growing from parent branch
@@ -168,9 +168,9 @@ Also, more branches creating more complicated pattern, yet the browser takes lon
 
 I tried adjusting some values to see how far this fractal can be more chaotic. Through trials and errors, this may be used to increase chaos.
 
-**Examples of what I think may work:**
+Examples of what I think may work:
 
-1. Example 1
+1. Example a
 
 ![chaotic fractal 1](/hw_w4/fractal_chaotic.png)
 
@@ -185,7 +185,7 @@ ctx.stroke()
 
 ```
 
-2. Example 2
+2. Example b
 
 ![chaotic fractal 2](/hw_w4/fractal_chaotic_2.png)
 
@@ -196,7 +196,7 @@ ctx.lineTo(-size, 0);
 
 ```
 
-3. Example 3
+3. Example c
 
 ![chaotic fractal 3](/hw_w4/fractal_chaotic_3.png)
 
@@ -207,7 +207,7 @@ ctx.lineTo(radsToDegrees(Math.PI / 4), 0);
 
 ```
 
-4. Example 4: somehow I like that the shadow moves more visibly here.
+4. Example d: 
 
 ![chaotic fractal 4](/hw_w4/fractal_chaotic_4.png)
 
@@ -221,7 +221,7 @@ ctx.rotate(radsToDegrees(Math.PI / 2), radsToDegrees(Math.PI / 2))
 
 ```
 
-5. Example 5: more complex shape butmore branches takes longer time to load.
+5. Example e: more complex shape but more branches takes longer time to load.
 
 ![chaotic fractal 5](/hw_w4/fractal_chaotic_5.png)
 
