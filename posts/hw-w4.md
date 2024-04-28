@@ -157,9 +157,11 @@ drawFractal()
 
 I haven't figured out the way to make the fractal move yet, and it seems to me that the shadow is drawn over and over, causing it to be darker than expected.
 
+Also, more branches creating more complicated pattern, yet the browser takes longer time to load.
+
 ## Chaotic Potentiality for A2
 
-I tried adjusting some values to see how far this fractal can be more chaotic. Through trials and errors, this may be used to increase chaos, but I still wonder how I can keep the fractal not too disjointed but still retain the chaotic aesthetic.
+I tried adjusting some values to see how far this fractal can be more chaotic. Through trials and errors, this may be used to increase chaos.
 
 ***Examples of what I think may work:**
 
@@ -195,12 +197,38 @@ ctx.lineTo(-size, 0);
 
 ```html
 
+//ending coordinates of the linefractal
 ctx.lineTo(radsToDegrees(Math.PI / 4), 0);
 
 ```
 
-Example of what I may avoid:
+4. Example 4: somehow I like that the shadow moves more visibly here
 
-[]()
+[chaotic fractal 4](/hw_w4/fractal_chaotic_4.png)
+
+```html
+
+//ending coordinates of the line
+ctx.lineTo(size, cnv.height);
+
+//rotate the canvas
+ctx.rotate(radsToDegrees(Math.PI / 2), radsToDegrees(Math.PI / 2))
+
+```
+
+5. Example 5: more branches takes longer time to load, but the shadow becoming darker here kinda works.
+
+[chaotic fractal 5](/hw_w4/fractal_chaotic_5.png)
+
+```html
+
+//number of children branch growing from parent branch
+let branches = 7
+
+//ending coordinates of the line
+ctx.lineTo(branches, 0);
+
+```
+
 
 
