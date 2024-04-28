@@ -1,5 +1,5 @@
 ---
-title: Week 5 Homework - Glitch Explain
+title: Class Note 1 - W5. Glitch Explained
 published_at: 2024-04-17
 snippet: Thomas' explanation
 disable_html_sanitization: true

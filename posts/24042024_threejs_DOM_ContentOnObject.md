@@ -1,7 +1,7 @@
 ---
-title: Week 7 in-class Three.js example
+title: Class Note 3 - W7. Three.js example
 published_at: 2024-04-24
-snippet: Threejs example - DOM-contentOnObject
+snippet: Threejs example - DOM-contentOnObject (not working)
 disable_html_sanitization: true
 ---
 

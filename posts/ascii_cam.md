@@ -1,5 +1,5 @@
 ---
-title: ascii cam
+title: Class Note 4 - W7. Ascii cam
 published_at: 2024-04-12
 snippet: webcam rendered via ASCII characters
 disable_html_sanitization: true

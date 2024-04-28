@@ -1,7 +1,7 @@
 ---
-title: Week 6 Three.js in-class example
+title: Class Note 2 - W6. Three.js example
 published_at: 2024-04-24
-snippet: Thomas' explanation
+snippet: Thomas' explanation - Particles
 disable_html_sanitization: true
 ---
 
