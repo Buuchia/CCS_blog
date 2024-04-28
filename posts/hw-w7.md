@@ -12,6 +12,16 @@ disable_html_sanitization: true
 
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
+
+//     const ctx = renderer.getContext ("2d")
+
+//     if (ctx.gerContextAttributes){
+//         const attributes = ctx.getContextAttributes();
+//         log(JSON.stringify(attributes));
+// } else {
+//   log("CanvasRenderingContext2D.getContextAttributes() is not supported");
+//     }
+//     let ctx = renderer.getContext('2d', {"willReadFrequently": true})
     resize();
 
     renderer.background('turquoise');
@@ -63,34 +73,35 @@ const div = document.getElementById (`ascii_div`)
    div.style.textAlign = `center`
 
 renderer.draw(() => {
+
     let voronoi = new c2.LimitedVoronoi();
     voronoi.compute(agents);
 
+    renderer.stroke(false)
     for (let i = 0; i < agents.length; i++) {
-        agents[i].display();
         agents[i].update();
     }
 
 const w = renderer.canvas.width
-      const h = renderer.canvas.height
-      const pixels = renderer.context.getImageData (0, 0, w, h).data
+const h = renderer.canvas.height
+const pixels = renderer.context.getImageData (0, 0, w, h).data
 
-      let ascii_img = ``
+let ascii_img = ``
 
-      for (let y = 0; y < renderer.canvas.height; y += 22) {
-         for (let x = 0; x < renderer.canvas.width; x += 10) {
-            const i = (y * renderer.canvas.width + x) * 4
-            const r = pixels[i]
-            const g = pixels[i + 1]
-            const b = pixels[i + 2]
-            const br = (r * g * b / 16581376) ** 0.1
-            const char_i = Math.floor (br * chars.length)
-            ascii_img += chars[char_i]
-         }
-         ascii_img += `\n`
+for (let y = 0; y < h; y += 22) {
+    for (let x = 0; x < w; x += 10) {
+        const i = (y * w + x) * 4
+        const r = pixels[i]
+        const g = pixels[i + 1]
+        const b = pixels[i + 2]
+        const br = (r * g * b / 16581376) ** 0.1
+        const char_i = Math.floor (br * chars.length)
+        ascii_img += chars[char_i]
+        }
+    ascii_img += `\n`
       }
 
-      div.innerText = ascii_img
+    div.innerText = ascii_img
 
     });
 
