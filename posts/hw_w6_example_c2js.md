@@ -1,5 +1,5 @@
 ---
-title: Example c2.js
+title: Week 6 Homework (part 1)
 published_at: 2024-04-17
 snippet: c2.js example - LimitedVoronoi4
 disable_html_sanitization: true
