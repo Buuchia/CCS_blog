@@ -242,7 +242,7 @@ for (let y = 0; y < h; y += 22) {
 
 ```
 
-In the console log, I receive this error ==Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently==.
+In the console log, I receive this error `Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently`.
 
 To solve this I added this code below:
 
@@ -250,4 +250,4 @@ To solve this I added this code below:
 renderer.context.willReadFrequently = true 
 ```
 
-Besides, nothing was shown on the context so unlike in the lecture's ascii cam + c2js example, I added the ==display()== function and call it the the code.
+Besides, nothing was shown on the context so unlike in the lecture's ascii cam + c2js example, I added the `display()` function and call it the the code.
