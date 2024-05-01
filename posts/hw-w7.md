@@ -13,7 +13,7 @@ disable_html_sanitization: true
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
 
-//     const ctx = renderer.getContext ("2d")
+    // const ctx = renderer.getContext ("2d")
 
 //     if (ctx.gerContextAttributes){
 //         const attributes = ctx.getContextAttributes();
@@ -21,8 +21,9 @@ disable_html_sanitization: true
 // } else {
 //   log("CanvasRenderingContext2D.getContextAttributes() is not supported");
 //     }
-//     let ctx = renderer.getContext('2d', {"willReadFrequently": true})
-    resize();
+    renderer.context.willReadFrequently = true 
+
+    resize ()
 
     renderer.background('turquoise');
     let random = new c2.Random();
@@ -59,6 +60,19 @@ disable_html_sanitization: true
             this.vy *= -1;
         }
     }
+
+    display(){
+        if (this.state != 2) {
+            renderer.stroke(c2.Color.rgb(0, .2));
+            renderer.lineWidth(1);
+            renderer.fill(this.color);
+            renderer.polygon(this.polygon(4));
+
+            renderer.stroke('#333333');
+            renderer.lineWidth(5);
+            renderer.point(this.p.x, this.p.y);
+        }
+    }
  }
  
 let agents = new Array(15);
@@ -77,8 +91,9 @@ renderer.draw(() => {
     let voronoi = new c2.LimitedVoronoi();
     voronoi.compute(agents);
 
-    renderer.stroke(false)
+    renderer.stroke('#333333') 
     for (let i = 0; i < agents.length; i++) {
+        agents[i].display();
         agents[i].update();
     }
 
