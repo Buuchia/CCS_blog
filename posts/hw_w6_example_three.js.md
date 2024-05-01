@@ -4,10 +4,11 @@ published_at: 2024-04-17
 snippet: three.js example - Hole Text
 disable_html_sanitization: true
 ---
+[Hole Text](https://jsfiddle.net/seanwasere/pa259mx1/) code is by author seanwasere.
 
 <div id="three_container"></div>
 
-<!-- <canvas id="threejs"/> -->
+<canvas></canvas>
 
 <script id="three-script" type="module">
 import * as THREE from '/scripts/threejs/three.js'
