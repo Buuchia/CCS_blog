@@ -13,14 +13,6 @@ disable_html_sanitization: true
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));
 
-    // const ctx = renderer.getContext ("2d")
-
-//     if (ctx.gerContextAttributes){
-//         const attributes = ctx.getContextAttributes();
-//         log(JSON.stringify(attributes));
-// } else {
-//   log("CanvasRenderingContext2D.getContextAttributes() is not supported");
-//     }
     renderer.context.willReadFrequently = true 
 
     resize ()
