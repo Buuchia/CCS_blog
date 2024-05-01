@@ -104,7 +104,7 @@ disable_html_sanitization: true
 
 <canvas id="c2"></canvas>
 
-//Created by Ren Yuan
+Created by Ren Yuan
 
 <script>
     const renderer = new c2.Renderer(document.getElementById('c2'));

@@ -8,6 +8,9 @@ disable_html_sanitization: true
 <script src="/scripts/c2.min.js"></script>
 
 <canvas id="c2"></canvas>
+
+The ascii cam code is taken from the class' lecture and the c2js code example is from [Limited Voranoi 4](https://c2js.org/examples.html?name=LimitedVoronoi4.) created by Ren Yuan.
+
 <div id="ascii_div"></div>
 
 <script>
@@ -118,6 +121,7 @@ for (let y = 0; y < h; y += 22) {
    }
 
 </script>
+
 
 ```html
 
@@ -237,3 +241,13 @@ for (let y = 0; y < h; y += 22) {
 </script>
 
 ```
+
+In the console log, I receive this error ==Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently==.
+
+To solve this I added this code below:
+
+```html
+renderer.context.willReadFrequently = true 
+```
+
+Besides, nothing was shown on the context so unlike in the lecture's ascii cam + c2js example, I added the ==display()== function and call it the the code.
