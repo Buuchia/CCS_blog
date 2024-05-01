@@ -1,5 +1,5 @@
 ---
-title: Week 6 Homework (part 2)
+title: New week 6
 published_at: 2024-04-17
 snippet: three.js example - Hole Text
 disable_html_sanitization: true
