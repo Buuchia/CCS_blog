@@ -92,4 +92,3 @@ function render() {
 animate()
 </script>
 
-[Hole Text](https://jsfiddle.net/seanwasere/pa259mx1/) code is by author seanwasere.
