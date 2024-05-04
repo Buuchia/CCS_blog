@@ -21,3 +21,4 @@ What I'm thinking to create is a net art with layers of
 - matrix rain in front
 - glitched 'zany' word
 - user interaction, draw trail of the zany word behind the rain
+- Object oriented Programming - wrap functions and variables in objects
