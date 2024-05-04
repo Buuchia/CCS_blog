@@ -8,8 +8,16 @@ disable_html_sanitization: true
 1. Artists / Works inspiration
 - Glitche aesthetic, hacker culture
 - Rosa Menkman's blog post
+- Sabato Visconti's Newer Cachemash Works - trails
+- Pointer interaction
 
 2. Zany techniques
 - Matrix rain 
 - Rotation of canvas
 - Layers of canvas - using z-index
+- Brush leaving trails
+
+What I'm thinking to create is a net art with layers of 
+- matrix rain in front
+- glitched 'zany' word
+- user interaction, draw trail of the zany word behind the rain
