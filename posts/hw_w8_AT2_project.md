@@ -35,7 +35,7 @@ to this:
 ```html
 ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
 ```
-so the background changes colour randomly, and the fading of the character strings is harder to see.
+so the background changes colour randomly. Though the characters are still falling, and the fading of the character strings is harder to see.
 
 ![random background colour and falling characters](/a2_matrix_rain/random_bg_color.png)
 
