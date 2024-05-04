@@ -6,6 +6,7 @@ disable_html_sanitization: true
 ---
 
 1. Artists / Works inspiration
+- Glitche aesthetic, hacker culture
 - Rosa Menkman's blog post
 
 2. Zany techniques
