@@ -71,7 +71,8 @@ class Symbol {
         this.canvasHeight = canvasHeight
     }
 
-    //define a function to randomize current character and draw it to the canvas at a specific location
+    //define a function to randomize current character 
+    //and draw it to the canvas at a specific location
     //every time the method is called, it will choose a random symbol
     draw(context) {
 
