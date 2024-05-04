@@ -49,7 +49,7 @@ to this:
 ```html
 ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
 ```
-so the background changes colour randomly. Though the characters are still falling, and the fading of the character strings is harder to see.
+so the background changes colour randomly, which looks chaotic but it decreases the complexity of the matrix rain. Though the characters are still falling, and the fading of the character strings is harder to see. The result is a bit plain so it doesn't work.
 
 ![random background colour](/a2_matrix_rain/random_bg_color.png)
 
