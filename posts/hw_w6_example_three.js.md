@@ -6,8 +6,6 @@ disable_html_sanitization: true
 ---
 [Hole Text](https://jsfiddle.net/seanwasere/pa259mx1/) code is by author seanwasere.
 
-The problem is that even after I have committed all the code, nothing is shown on my blog. But if I view it in local host, it shows the threejs example.
-
 <div id="three_container"></div>
 
 <canvas></canvas>
