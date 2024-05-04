@@ -193,7 +193,7 @@ const animate = (timeStamp) => {
         //declaring fill style once for all the symbols in the array per frame
         //the gradient style applies to the canvas background, not the characters 
         //so characters take different colors depending on their position on canvas
-        ctx.fillStyle = gradient //'green'
+        ctx.fillStyle = gradient 
 
         //font property specifies the current text style
         //monospace fonts have characters that occupy the same amount of horizontal space
