@@ -24,7 +24,7 @@ What I'm thinking to create is a net art with layers of
 - Object oriented Programming - wrap functions and variables in objects
 
 ## PROCESS
-Following the [Matrix Rain](https://www.youtube.com/watch?v=f5ZswIE_SgY&t=229s) tutorial by Franks laboratory, I achieved a linear gradient matrix rain.
+Following the [Matrix Rain](https://www.youtube.com/watch?v=f5ZswIE_SgY&t=229s) tutorial by Franks laboratory and using the concept of Object-oriented Programming, I achieved a linear gradient matrix rain.
 
 ![linear gradient matrix rain](/a2_matrix_rain/linear_gradient_matrix_rain.png).
 
