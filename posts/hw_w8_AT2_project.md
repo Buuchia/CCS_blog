@@ -196,7 +196,8 @@ const animate = (timeStamp) => {
         ctx.fillStyle = gradient 
 
         //font property specifies the current text style
-        //monospace fonts have characters that occupy the same amount of horizontal space
+        //monospace fonts have characters 
+        //that occupy the same amount of horizontal space
         ctx.font = effect.fontSize + 'px monospace'
 
         //draw symbol to the canvas
