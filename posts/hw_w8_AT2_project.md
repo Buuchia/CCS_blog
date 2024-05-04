@@ -49,6 +49,6 @@ ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
 ```
 so the background changes colour randomly. Though the characters are still falling, and the fading of the character strings is harder to see.
 
-![random background colour and falling characters](/a2_matrix_rain/random_bg_color.png)
+![random background colour](/a2_matrix_rain/random_bg_color.png)
 
 
