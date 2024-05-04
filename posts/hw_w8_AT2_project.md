@@ -33,8 +33,10 @@ ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
 ```
 the characters also rotate when falling down, but I don't like the edges of the rotated canvas. It takes them some time to become darker and darker. 
 
+Before:
 ![before](/a2_matrix_rain/black_rec_rotate_pi4_before.png)
 
+After:
 ![after](/a2_matrix_rain/black_rec_rotate_pi4_after.png)
 
 2. I change the fill style of context from this:
