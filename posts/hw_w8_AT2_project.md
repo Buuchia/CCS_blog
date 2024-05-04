@@ -6,4 +6,9 @@ disable_html_sanitization: true
 ---
 
 1. Artists / Works inspiration
+- Rosa Menkman's blog post
+
 2. Zany techniques
+- Matrix rain 
+- Rotation of canvas
+- Layers of canvas - using z-index
