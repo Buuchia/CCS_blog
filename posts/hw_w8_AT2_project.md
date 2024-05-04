@@ -22,3 +22,20 @@ What I'm thinking to create is a net art with layers of
 - glitched 'zany' word
 - user interaction, draw trail of the zany word behind the rain
 - Object oriented Programming - wrap functions and variables in objects
+
+## TESTS
+
+1. I change the fill style of context from this:
+
+```html
+ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
+```
+to this:
+
+```html
+ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
+```
+so the background changes colour randomly, and the fading of the character strings is harder to see.
+
+![random background colour and falling characters](/a2_matrix_rain/random_bg_color.png)
+
