@@ -25,7 +25,19 @@ What I'm thinking to create is a net art with layers of
 
 ## TESTS
 
-1. I change the fill style of context from this:
+1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
+
+```html
+ctx.rotate(Math.PI / 4)
+ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
+```
+the characters also rotate when falling down, but I don't like the edges of the rotated canvas. It takes them some time to become darker and darker. 
+
+![before](/a2_matrix_rain/black_rec_rotate_pi4_before.png)
+
+![after](/a2_matrix_rain/black_rec_rotate_pi4_after.png)
+
+2. I change the fill style of context from this:
 
 ```html
 ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
@@ -38,4 +50,5 @@ ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
 so the background changes colour randomly. Though the characters are still falling, and the fading of the character strings is harder to see.
 
 ![random background colour and falling characters](/a2_matrix_rain/random_bg_color.png)
+
 
