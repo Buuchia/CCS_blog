@@ -281,7 +281,6 @@ Then I try adding a synthesiser to the canvas with code from the lecture and som
 
 
 
-
 ## TESTS
 
 1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
@@ -290,7 +289,7 @@ Then I try adding a synthesiser to the canvas with code from the lecture and som
 ctx.rotate(Math.PI / 4)
 ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
 ```
-the characters also rotate when falling down, but I don't like the edges of the rotated canvas. It takes them some time to become darker and darker. 
+The characters rotate when falling down. It takes the edges of the rotated canvas a while to become darker and darker. I am not sure if I like this or not, but it impacts the original rain in a new and interesting way. Instead of falling neatly in each columns, which is predictable and maybe boring in a long run, the characters appears more randomly.
 
 Before:
 ![before](/a2_matrix_rain/black_rec_rotate_pi4_before.png)
@@ -308,9 +307,15 @@ to this:
 ```html
 ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
 ```
-so the background changes colour randomly, which looks chaotic but it decreases the complexity of the matrix rain. Though the characters are still falling, and the fading of the character strings is harder to see. The result is a bit plain so it doesn't work.
+so the background changes colour randomly, which looks chaotic but it decreases the complexity of the matrix rain. Though the characters are still falling, and the fading of the character strings is harder to see. The result is a bit plain so I don't think this works well.
 
 ![random background colour](/a2_matrix_rain/random_bg_color.png)
+
+3. In this test, I try splitting the canvas into smaller portions, playing with `ctx.fillRect` and `ctx.clearRect`, but I don't think I would go with this composition because they are so still.
+
+![split screen](/a2_matrix_rain/split_screen.png)
+
+4. 
 
 ## TUTORIALS
 [Matrix Rain Experiments in JavaScript (tutorial)](https://www.youtube.com/watch?v=f5ZswIE_SgY&list=LL)
