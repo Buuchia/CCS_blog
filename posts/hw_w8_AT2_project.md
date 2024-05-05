@@ -63,7 +63,7 @@ gradient.addColorStop(1, 'green') //at 100%
 //that make up the rain effect
 class Symbol {
     constructor(x, y, fontSize, canvasHeight) {
-        this.chars = 'アァカサタナハマヤャラワガザダバパイィキシチニ☀☁❆WELCOMETOMYZANYWORLD❅❄ヒミリヰギジヂビピウゥクスツヌフムユュルLETSBEMORECHAOTICグズブヅプ♔♕♖♗♘♙エェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン'
+        this.chars = 'ポヴッンWELCOMETOMYZANYWORLDグズブヅプアァカサタナボ'
         this.x = x
         this.y = y
         this.fontSize = fontSize;
@@ -260,8 +260,20 @@ const drawText = () => {
 }
 
 ```
+
 Result: 
 ![random zany colour](/a2_matrix_rain/zany_random_colour.png)
+
+I also change the font in `animate()` function from 'px monospace' to the code below:
+
+```html
+
+//font property specifies the current text style
+//add wingdings fonts to have more interesting symbols
+ctx.font = effect.fontSize + 'px Wingdings'
+
+```
+
 ## TESTS
 
 1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
