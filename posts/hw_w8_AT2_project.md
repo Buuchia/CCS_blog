@@ -4,7 +4,7 @@ published_at: 2024-05-04
 snippet: Assignment 2's Creative Process
 disable_html_sanitization: true
 ---
-Link to my AT2 Net Art is [here](https://buuchimachs-a2-project-68.deno.dev/).
+**Link to my AT2 Net Art is [here](https://buuchimachs-a2-project-68.deno.dev/).**
 1. Artists / Works inspiration
 - Glitche aesthetic, hacker culture
 - Rosa Menkman's blog post
@@ -319,8 +319,6 @@ Without `clearRect()`:
 With `clearRect()`:
 ![text function enables clearRect()](/a2_matrix_rain/text_with_clearRect.png)
 
-
-
 ## TESTS
 
 1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
@@ -354,8 +352,6 @@ so the background changes colour randomly, which looks chaotic but it decreases 
 3. In this test, I try splitting the canvas into smaller portions, playing with `ctx.fillRect` and `ctx.clearRect`, but I don't think I would go with this composition because they are so still.
 
 ![split screen](/a2_matrix_rain/split_screen.png)
-
-4. 
 
 ## TUTORIALS
 [Matrix Rain Experiments in JavaScript (tutorial)](https://www.youtube.com/watch?v=f5ZswIE_SgY&list=LL)
