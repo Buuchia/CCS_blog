@@ -5,7 +5,10 @@ snippet: Assignment 2's Creative Process
 disable_html_sanitization: true
 ---
 **Link to my AT2 Net Art is [here](https://buuchimachs-a2-project-68.deno.dev/).**
-1. Artists / Works inspiration
+
+1. My submission is inspired by [Rosa Menkman's blog](https://rosa-menkman.blogspot.com/) .
+
+Artists / Works inspiration
 - Glitche aesthetic, hacker culture
 - Rosa Menkman's blog post
 - Sabato Visconti's Newer Cachemash Works - trails
@@ -36,6 +39,7 @@ Following the [Matrix Rain](https://www.youtube.com/watch?v=f5ZswIE_SgY&t=229s) 
 document.body.style.margin   = 0
 document.body.style.overflow = `hidden`
 document.body.style.backgroundColor = 'hsl(' + Math.random() * 360 + ', 100%, 30%)'
+document.body.style.mixBlendMode = 'screen'
 
 //creating a canvas element
 const cnv = document.getElementById (`cnv_element`)
@@ -318,6 +322,18 @@ Without `clearRect()`:
 
 With `clearRect()`:
 ![text function enables clearRect()](/a2_matrix_rain/text_with_clearRect.png)
+
+Lastly, I add blend mode to the body of document:
+
+```html
+
+document.body.style.mixBlendMode = 'screen'
+
+```
+
+I find that with this blend mode, I can see the random background colour more clearly while the fading of the previous characters are still kept, so the background won't turn black gradually all the time, which adds variety every time the page reloads. I was considering between `color-dodge` mode and `sscreen` mode, but I go with `screen` for now because it sacrifies the gradient effect less than the other.
+
+![screen blend mode](/a2_matrix_rain/screen_blendmode.png)
 
 ## TESTS
 
