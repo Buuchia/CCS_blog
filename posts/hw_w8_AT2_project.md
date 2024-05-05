@@ -6,25 +6,22 @@ disable_html_sanitization: true
 ---
 **Link to my AT2 Net Art is [here](https://buuchimachs-a2-project-68.deno.dev/).**
 
-1. My submission is inspired by [Rosa Menkman's blog](https://rosa-menkman.blogspot.com/) .
+1. My submission is inspired by [Rosa Menkman's blog](https://rosa-menkman.blogspot.com/) and [Sabato Visconti's Newer Cachmash Works](https://www.sabatobox.com/newer-cachemash-works-2019).
+Both artists' works belonged to the glitch aesthetic.
 
-Artists / Works inspiration
-- Glitche aesthetic, hacker culture
-- Rosa Menkman's blog post
-- Sabato Visconti's Newer Cachemash Works - trails
-- Pointer interaction
+In Rosa Menkman's work, I am fascinated with the animation running in the background, which reminds me of the matrix rain of hackers. I also like that she let the layers of the canvas rotate when the mouse interacts with it, an element of surprise. 
 
-2. Zany techniques
-- Matrix rain 
-- Rotation of canvas
-- Layers of canvas - using z-index
-- Brush leaving trails
+In Sabato Visconti's works, I like that each work has a specific glitched word, which redraws itself and leaving a trail.
 
-What I'm thinking to create is a net art with layers of 
-- matrix rain in front
-- glitched 'zany' word
-- user interaction, draw trail of the zany word behind the rain
-- Object oriented Programming - wrap functions and variables in objects
+2. To achieve the zany/chaotic aesthetic:
+
+- I created a falling character rain in the background using the concept of Object-oriented Programming which wraps functions and variables in objects, and recursion to animate the rain every frame.
+
+- In the foreground, the zany word is glitching because the recursive function redraws it at high framerate.
+
+- To add more chaos into my composition, I incorporated a simple synthesiser to the canvas, which is triggered when the user's mouse clicks on it.
+
+- Trials and errors are also a big component of the glitch aesthetic, so I also embrace some accidental discoveries and trying to see where they could fit into my zany/chaotic composition.
 
 ## PROCESS
 Following the [Matrix Rain](https://www.youtube.com/watch?v=f5ZswIE_SgY&t=229s) tutorial by Franks laboratory and using the concept of Object-oriented Programming, I achieved a linear gradient matrix rain.
@@ -250,6 +247,7 @@ window.onresize = () => {
 ```
 
 Next, I try creating a text on top of this matrix background. Ideally, I want to add glitch effect to this text to intensify the chaos.
+
 What I have got so far is a custom function to draw the text and the text changes colour randomly every frame in an unpleasant speed to the viewer's eyes, then I call this function under line `timer = 0` inside the `animate()` function.
 
 ```html 
@@ -282,7 +280,7 @@ Then I try adding a synthesiser to the canvas with code from the lecture and som
 
 ![audio warning](/a2_matrix_rain/audio_warning.png)
 
-I want to the sound to remind of old video game, so I change the oscilliator type and the value of midi note, referring to [this midi sheet.](https://newt.phys.unsw.edu.au/jw/notes.html)
+I want to the sound to remind of old video games, so I change the oscilliator type and the value of midi note, referring to [this midi sheet.](https://newt.phys.unsw.edu.au/jw/notes.html)
 
 ```html
 
@@ -315,7 +313,7 @@ const drawText = () => {
 }
 ```
 
-Between enabling and disabling line `ctx.clearRect(0, 0, cnv.width / 2, cnv.height / 3)`, I prefer the result without it because the rectangle is distracting yet does nothing much. 
+Between enabling and disabling line `ctx.clearRect(0, 0, cnv.width / 2, cnv.height / 3)`, I prefer the result without it because the rectangles are distracting yet does nothing much. 
 
 Without `clearRect()`:
 ![text function disables clearRect()](/a2_matrix_rain/text_without_clearRect.png)
@@ -368,6 +366,16 @@ so the background changes colour randomly, which looks chaotic but it decreases 
 3. In this test, I try splitting the canvas into smaller portions, playing with `ctx.fillRect` and `ctx.clearRect`, but I don't think I would go with this composition because they are so still.
 
 ![split screen](/a2_matrix_rain/split_screen.png)
+
+## REFLECTION
+
+I am not 100% satisfied with the current result, but I try my best in responding to the artworks. Combining different ideas in one javascript file is really difficult.
+
+Besides, even though I suspect that the layers in Rosa Menkman's blog has something to do with z-index, but since I only use one canvas, the functionality of z-index is still ambiguous. 
+
+And I haven't figured out how to do the glitched brush trail in Visconti's work so my glitch version is unfortunately compromised for now.
+
+About effective complexity, the non-randomness element lies in the falling symbols all coming from the same character set, yet randomizing each character in each index of the symbols array achieves the non-redundancy quality. The synthesiser also boosts this structure, because all the notes have same oscilliator (coherence), but with different math resulting in different values of frequency and different positions on the canvas (spiciness), they make different notes. Thus, although the composition is chaotic, it still contains some effective complexity.
 
 ## TUTORIALS
 [Matrix Rain Experiments in JavaScript (tutorial)](https://www.youtube.com/watch?v=f5ZswIE_SgY&list=LL)
