@@ -278,6 +278,33 @@ Then I try adding a synthesiser to the canvas with code from the lecture and som
 
 ![audio warning](/a2_matrix_rain/audio_warning.png)
 
+Another problem is that I struggle with incorporating the glitched pixels effect from the lecture's code to the word 'ZANY', because it is not an image that the function can get the data from. 
+
+I also want to retain the rotation of canvas like in Rosa Menkman's blog post, so I try doing that in the `drawText()` function.
+
+```html
+
+//define a function to draw the Zany text
+const drawText = () => {
+
+    ctx.rotate((45 * Math.PI) / 180) //rotate the canvas by 45 degrees
+    // ctx.clearRect(0, 0, cnv.width / 2, cnv.height / 3)
+
+    ctx.font = 'bold 500px Roboto' //font name and size
+    ctx.textBaseline = "middle"
+    ctx.textAlign = "center"
+    ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 50%)'
+    ctx.fillText("ZANY", cnv.width /2 , cnv.height /2)
+}
+```
+
+Between enabling and disabling line `ctx.clearRect(0, 0, cnv.width / 2, cnv.height / 3)`, I prefer the result without it because the rectangle is distracting yet does nothing much. 
+
+Without `clearRect()`:
+![text function disables clearRect()](/a2_matrix_rain/text_without_clearRect.png)
+
+With `clearRect()`:
+![text function enables clearRect()](/a2_matrix_rain/text_with_clearRect.png)
 
 
 
