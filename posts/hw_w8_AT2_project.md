@@ -304,4 +304,6 @@ so the background changes colour randomly, which looks chaotic but it decreases 
 
 ![random background colour](/a2_matrix_rain/random_bg_color.png)
 
-
+## TUTORIALS
+[Matrix Rain Experiments in JavaScript (tutorial)](https://www.youtube.com/watch?v=f5ZswIE_SgY&list=LL)
+[Text and Images on HTML Canvas](https://www.youtube.com/watch?v=u923wu6Oa2A)
