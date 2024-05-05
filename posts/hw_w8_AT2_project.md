@@ -274,6 +274,14 @@ ctx.font = effect.fontSize + 'px Wingdings'
 
 ```
 
+Then I try adding a synthesiser to the canvas with code from the lecture and some adjustments to make the work more chaotic. Even though I see this warning in the console log, the audio still works so that is a bit strange.
+
+![audio warning](/a2_matrix_rain/audio_warning.png)
+
+
+
+
+
 ## TESTS
 
 1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
