@@ -242,6 +242,8 @@ for (let y = 0; y < h; y += 22) {
 
 ```
 
+1. I combine the c2.js example from week 6 to the ascii cam example.
+
 In the console log, I receive this error `Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently`.
 
 To solve this I added this code below:
@@ -251,3 +253,9 @@ renderer.context.willReadFrequently = true
 ```
 
 Besides, nothing was shown on the context so unlike in the lecture's ascii cam + c2js example, I added the `display()` function and call it the the code.
+
+2. Combining ideas/libraries seem to make things more aesthetically chaotic because it modifies the different source codes, but still preserves the nature of how each code works.
+
+As we have learned, effective complexity organize elements into a structure that achieves balance between non-randomness (coherence) and non-redundancy (spiciness).
+
+In this case, different ideas and libraries supports the non-redundancy, making the base code behave in a way that produces an unexpected result.
