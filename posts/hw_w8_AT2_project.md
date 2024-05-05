@@ -278,6 +278,19 @@ Then I try adding a synthesiser to the canvas with code from the lecture and som
 
 ![audio warning](/a2_matrix_rain/audio_warning.png)
 
+I want to the sound to remind of old video game, so I change the oscilliator type and the value of midi note, referring to [this midi sheet.](https://newt.phys.unsw.edu.au/jw/notes.html)
+
+```html
+
+// make it a square wave this time
+osc.type            = 'square'
+
+// set the value using the equation 
+// for midi note to Hz
+osc.frequency.value = 261.63 * 2 ** ((note - 40) / 20)
+
+```
+
 Another problem is that I struggle with incorporating the glitched pixels effect from the lecture's code to the word 'ZANY', because it is not an image that the function can get the data from. 
 
 I also want to retain the rotation of canvas like in Rosa Menkman's blog post, so I try doing that in the `drawText()` function.
