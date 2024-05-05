@@ -245,6 +245,23 @@ window.onresize = () => {
 
 ```
 
+Next, I try creating a text on top of this matrix background. Ideally, I want to add glitch effect to this text to intensify the chaos.
+What I have got so far is a custom function to draw the text and the text changes colour randomly every frame in an unpleasant speed to the viewer's eyes, then I call this function under line `timer = 0` inside the `animate()` function.
+
+```html 
+
+//define a function to draw the Zany text
+const drawText = () => {
+    ctx.font = 'bold 500px Roboto' //font name and size
+    ctx.textBaseline = "middle"
+    ctx.textAlign = "center"
+    ctx.fillStyle = 'hsl(' + Math.random() * 360 + ', 100%, 50%)'
+    ctx.fillText("ZANY", cnv.width /2 , cnv.height /2)
+}
+
+```
+Result: 
+![random zany colour](/a2_matrix_rain/zany_random_colour.png)
 ## TESTS
 
 1. Keeping the original fill style and the rest of the code and adding rotation of the canvas like in the code below:
