@@ -29,7 +29,7 @@ I may engage with my pet cat to form a community of practice.
 
 **Domain**: How to engage my cat in doing exercise and how to make our living room a fun interactive playground for my cat and me.
 
-**Shared values**: we both enjoy staying indoors, doing activities that doesn't require a lot of running, being in a comfortable and relaxing environment with no strong light and  minimal sound, getting rewards and compliments.
+**Shared values**: we both enjoy staying indoors, doing activities that doesn't require a lot of running, being in a comfortable and relaxing environment with no strong light and  minimal sound, getting rewards and compliments for our efforts.
 
 **Existing repetoire**: 
 
