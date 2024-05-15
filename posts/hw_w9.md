@@ -22,6 +22,6 @@ how you might broker some creative coding repertoire to this new context
 
 - It is accumulative, because each participant in the project, as different myceliums, inputs their own response about the problem based on their specific experiences into the website. Gradually, they inform a broader picture of what the fear of COVID-19 has caused to the trust between human relationships.
 
-- It is transformational, because the website transforms the way the participant exchange conversation mechanically, from human's verbal communication to a machine's monotonous voice on the phone. Besides that, the work intrigues thoughts about what made us ***humans*** if we are not able to use our voice.
+- It is transformational, because the website transforms the way the participant exchange conversation mechanically, from human's verbal communication to a machine's monotonous voice on the phone. Besides that, the work intrigues thoughts about what made us ***humans*** if we are not able to use our voice, and makes me rethink about my relationship with digital devices.
 
-- 
+- It has the potential of producing fruiting bodies. Though being somewhat dystopian, the project explores an alternative way of expressing ideas and emotion, which can be effective.
