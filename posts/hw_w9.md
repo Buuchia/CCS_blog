@@ -19,3 +19,7 @@ how you might broker some creative coding repertoire to this new context
 1. The project ***I heard TALKING IS DANGEROUS*** by Lauren Lee McCarthy is an example of mycelial creativity because:
 
 - It is omnidirection, which means that it involves a community of practice despite the geographic disadvantage due to the COVID-19. In this case, the work is a collaboration between the artist and her friends whose concerns address the fear of paranoia, lost of verbal connection, and discrimination during the pandemic. Even though they are not present in the same environment, they engage with each other through the use of a website turning text to speech on phones.
+
+- It is accumulative, because each participant in the project, as different myceliums, inputs their own response about the problem based on their specific experiences into the website. Gradually, they inform a broader picture of what the fear of COVID-19 has caused to the trust between human relationships.
+
+- It is transformational 
