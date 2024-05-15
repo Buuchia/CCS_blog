@@ -27,5 +27,10 @@ how you might broker some creative coding repertoire to this new context
 2. Brainstorming AT3
 I may engage with my pet cat to form a community of practice.
 
-Domain: 
+**Domain**: How to engage my cat in doing exercise and how to make our living room a fun interactive playground for my cat and me.
+
+**Shared values**: we both enjoy staying indoors, doing activities that doesn't require a lot of running, being in a comfortable and relaxing environment with no strong light and  minimal sound, getting rewards and compliments.
+
+**Existing repetoire**: 
+
 
