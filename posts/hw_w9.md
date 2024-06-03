@@ -20,6 +20,8 @@ I heard TALKING IS DANGEROUS by Lauren Lee McCarthy also belongs to the interest
 
 2. Brainstorming AT3
 
+`First idea`:
+
 I may engage with my lazy pet cat to form a community of practice. 
 
 **Domain**: How to make our living room a fun interactive playground for my cat and me.
@@ -31,6 +33,23 @@ I may engage with my lazy pet cat to form a community of practice.
 **Brokering creative coding repetoire**: Since my cat shows no interest in any toys except for catching light reflection on our home's ceramic walls, I may borrow creative codes to create a game that mimics those light spots and projects the screen on the wall so that my cat can play anytime, without waiting for a sunny day. 
 
 I imagine that in active mode, the screen will be dark and wherever the webcam sees my hand shape, it will create a light spot in that location. when the camera doesn't get the hand gesture, the game will play a soothing piece of music and run some falling pet treats from top to down.
+
+`Second idea`:
+
+My Thai roommate and a public art in my univerity's hall inspired me to create a website about self-affirmation, hence the community of practice will include my friends and I.
+
+**Domain**: How to make the website an interactive, safe, comforting and mindful space for my friends and myself when we feel down and need emotional support.
+
+**Existing repetoire**: We are international students enjoying exploring cultures and taking care of our well-being. Sometimes due to the infamilliarity with the environment or unpleasant experiences in schools or at work, we have self-doubt which impacts our self-esteem and questions our self-worth, so we need something or someone to remind us we are enough by giving us genuine care and compliments.
+
+**Brokering creative coding repertoire**: The website takes inspiration from self-affirmation cards and requires participation from users to generate a meaningful interaction, utilising p5 creative coding tutorials. There are two ways to engage with the website:
+
+Interaction 1: When the mouse moves on the canvas, the user will see a trail of heart emojis.
+
+Interaction 2: When the user clicks on the canvas, particles forming the heart shape will appear with a quote of affirmation in the middle.
+
+Or the quotes will fall or bounce in the background separate from the mouse interaction.
+
 
 
 

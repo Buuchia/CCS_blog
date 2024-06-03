@@ -4,3 +4,6 @@ published_at: 2024-05-29
 snippet: Creative Coding and Digital Infrastructure
 disable_html_sanitization: true
 ---
+
+In what ways might the practice of creative coding attend to problems regarding digital infrastructure?
+
