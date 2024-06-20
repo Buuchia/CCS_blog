@@ -9,6 +9,12 @@ disable_html_sanitization: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zgu9iyWyn9o?si=h1XaS_1Xq7hdrs6K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<script type="module">
+ const iframe = document.getElementById(`grid`)
+ iframe.width = iframe.parentNode.scrollWidth
+ iframe.height = iframe.parentNode.scrollWidth + 42
+</script>
+
 ## Frustrating Aspect of the Process:
 
 
