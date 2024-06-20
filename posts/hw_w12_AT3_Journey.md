@@ -13,12 +13,20 @@ Inspired by Lauren Lee McCarthy's I heard TALKING IS DANGEROUS, I want to create
 
 To make this work, I am going to broker creative coding knowledge from the p5js community, which I have been a part of since the start of this semester, to our community of practice. In doing so, Poon may find creative coding therapeutic, while I can also learn from her feedback to enrich my coding skill as she had some experience in play-testing websites from her previous jobs.
 
-In short, my p5 sketch will display heart shapes with random self-affirmation messages when Poon's mouse double-clicks on the canvas. If she drags the mouse across the canvas, the cursor will show a trail of falling hearts. She can also choose the background images from the drop-down menu, and play or pause the soothing meditative music.
+In short, my p5 sketch will display heart shapes with random self-affirmation messages when Poon's mouse double-clicks on the canvas. If she drags the mouse across the canvas, the cursor will show a trail of floating hearts. She can also choose the background images from the drop-down menu, and play or pause the soothing meditative music.
 
 
 ## What actually happened
 
-To begin with, I searched about colors that have a pleasant 
+I remember that I saw a tutorial about dragging a falling hearts cursor on Patt Vira's YouTube channel and it would fit really well with my concept so I learned to understand her walk-through. Then I searched about 'colours that help reduce anxiety' on Google, but the results weren't really helpful because the sites listed almost every hue, so I picked and tested colours in Adobe Illustrator to get the final palette. 
+
+Once I finished that tutorial, I found another video of hers about particle system, in which when the mouse is pressed,they form a heart shape then expand and disappear like a firework. However in my sketch, instead of falling down after the expansion, the particles float in random direction, which I find having a more dreamy effect. I also included some codes to generate three random positive texts inside the heart particles.
+
+Then I realised the background was a little empty, so I wanted to do something interesting with it instead of a plain coloured canvas, so I loaded a sunset image that I took when I was by the beach, which is a pleasant moment of the day that people can feel relaxed.
+
+For the audio, I went to Freesound website and looked up some meditative soundtracks. Fortunately, I found the Love
+
+With these basic setup of the website, I shared it to my roommate to test and 
 
 
 
