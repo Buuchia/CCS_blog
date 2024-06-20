@@ -50,10 +50,3 @@ Interaction 1: When the mouse moves on the canvas, the user will see a trail of 
 Interaction 2: When the user clicks on the canvas, particles forming the heart shape will appear with a quote of affirmation in the middle.
 
 Or the quotes will fall or bounce in the background separate from the mouse interaction.
-
-
-
-
-
-
->>>>>>> 748652029fb1c214e06e61f2f2aa4b378feb97a5
