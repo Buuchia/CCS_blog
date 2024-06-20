@@ -42,6 +42,7 @@ My Thai roommate and a public art in my univerity's hall inspired me to create a
 
 **Existing repetoire**: We are international students enjoying exploring cultures and taking care of our well-being. Sometimes due to the infamilliarity with the environment or unpleasant experiences in schools or at work, we have self-doubt which impacts our self-esteem and questions our self-worth, so we need something or someone to remind us we are enough by giving us genuine care and compliments.
 
+
 **Brokering creative coding repertoire**: The website takes inspiration from self-affirmation cards and requires participation from users to generate a meaningful interaction, utilising p5 creative coding tutorials. There are two ways to engage with the website:
 
 Interaction 1: When the mouse moves on the canvas, the user will see a trail of heart emojis.
@@ -54,3 +55,5 @@ Or the quotes will fall or bounce in the background separate from the mouse inte
 
 
 
+
+>>>>>>> 748652029fb1c214e06e61f2f2aa4b378feb97a5
