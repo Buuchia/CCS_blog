@@ -46,6 +46,6 @@ One more thing Poon mentioned is to have the option to adjust music and Mai also
 I also ponder between whether the messages should disappear along with the particles or remain on screen, because Mai brought up that the newer texts stamped on top of the older ones. There was definitely a way to erase the texts but I want the positive messages to imprint on the canvas as a reminder, albeit maybe harder to read.
 
 
-
+Update about kittens, flowers, p5 record with pics.
 
 
