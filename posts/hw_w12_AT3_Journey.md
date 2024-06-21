@@ -9,13 +9,45 @@ disable_html_sanitization: true
 
 My roommate Poon expressed that she would like to have more music options and my Vietnamese friend Mai said that she would love the current music to loop since the original track only plays up to 2 minutes. I considered these suggestions but firstly it took me a long time to dive into the sound collection and pick out a satisfying track, secondly I attempted to make a loop button but there was an error which I could not fix yet, so for now to deliever the assignment on time, I will make a note of these issues and come back to update them when I have more time.
 
-I also ponder between whether the messages should disappear along with the particles or remain on screen, because Mai brought up that the newer texts stamped on top of the older ones. There was definitely a way to erase the texts but I want the positive messages to imprint on the canvas as a reminder, albeit maybe harder to read.
+I also ponder between whether the messages should disappear along with the particles or remain on screen, because Mai brought up that the newer texts stamped on top of the older ones. There was definitely a way to erase the texts, since I noticed that if I made the exploding heart particles fall down like in the original tutorial, the text will disappear with it. However, I want the positive messages to imprint on the canvas as a reminder, albeit maybe harder to read. Another way is to write codes that delete random remaining quotes at random times to help relieve the congestion of two many quotes on the page, but I haven't figured out how to do that yet.
 
-Additionally, since my sister brought up the idea that the exploding heart particles may turn into flowers, I tried replacing the ellipses with a flower PNG, referencing [this tutorial](https://www.youtube.com/watch?v=i2C1hrJMwz0) where Daniel Shiffman turns the Bubble objects into images of kittens. However, what I got was that the size of the image was too large (and it wasn't even a real PNG!) and the heart shape was gone. I tried with my kitten jpg as well, and it was a failure too. Since I work with three classes in one sketch, it is challenging for me to make sure they combine well.
+Additionally, since my sister brought up the idea that the exploding heart particles may turn into flowers, I tried replacing the ellipses with a flower PNG, referencing [this tutorial](https://www.youtube.com/watch?v=i2C1hrJMwz0) where Daniel Shiffman turns the Bubble objects into images of kittens. My plan was that when the mouse clicks on the quotes remained on the screen, each quote would turn into an image of flower or kitten. However, what I got was that the size of the image was too large (and it wasn't even a real PNG!) and the heart shape of the particle system was gone. I tried with my kitten jpg as well, and it was a failure too. Since I work with three classes in one sketch, it is challenging for me to make sure they combine well.
 
+Example 1: Failed flower image
 ![fake flower png replaces ellipse particles](/hw_12/flower_fakepng.png)
 
+Example 2: Failed kitten image
 ![cat jpg replaces ellipse particles](/hw_12/cat_failed.png)
+
+### Other Attempts
+
+When I tried making the music loop button, I got an error saying that `song.unLoop()` was not a valid function. I could click to change unloop to loop, but cannot toggle back to unloop. To avoid causing confusion for user, I decided to skip this button at this stage.
+
+Inside `setup()`:
+```
+//Creating loop button
+  button_loop = createButton("loop music")
+  button_loop.position(100, 30)
+  button_loop.size(70, 70)
+  button_loop.mousePressed(toggleLooping)
+```
+
+Defining a function to toggle between loop and unloop music:
+```
+function toggleLooping() {
+  if (!song.isLooping()) {
+    song.loop()
+     button_loop.html("unloop music")
+   } else {
+     song.unLoop()
+     button_loop.html("loop music")
+   }
+ }
+```
+
+Besides, I also thought about adding `p5.capture` script to my sketch so that users can record their experience and keep it as a memento of the self-affirmation therapy session, since that extra library will create files to be downloaded to their local devices if they press the on-screen record button. However, the movement in the videos were very slow even though I tested different fps values, particularly delaying the floating heart trail of the cursor, so I disabled it in the index.html file.
+
+About the positive quotes, although I managed to keep them fit inside the heart particles, the issue is that the alignment wasn't accurately in the centre, and longer text will go beyond the heart's edge. I tried `rectMode(CENTER)` but could not see any obvious change, so I wonder if there was any way to control the bounding box of the texts to be definitely stay inside the heart.
 
 
 ### Video Transcript
@@ -53,10 +85,5 @@ In conclusion, the whole process of doing this project encapsulates the concept 
 
 
 
-
-
-
-
-Update about kittens, flowers, p5 record with pics.
 
 
